@@ -26,8 +26,6 @@ def main():
     #mesh = UnitCubeMesh(mesh_num, mesh_num, mesh_num)
     func_space = FunctionSpace(mesh, "DG", DG_degree)
 
-    r = SpatialCoordinate(mesh)[0]
-
     #define functions for the variables
     var_list = [Function(func_space) for dummy in range(16)]
     #define functions for the auxi variables
@@ -58,7 +56,6 @@ def main():
     invg_forms = get_invg_forms(var_list)
     auxi_forms = get_auxi_forms(var_list, invg_list) 
     gamma_forms = get_gamma_forms(var_list, auxi_list)
-    src_forms = get_source_forms(var_list, invg_list, gamma_list, auxi_list, r)
 
     project_functions(invg_forms, invg_list) 
     project_functions(auxi_forms, auxi_List)       
