@@ -79,17 +79,60 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, r):
             + invg11*(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma001*gamma001
             - invg01*2*gamma001*gamma011-invg11*gamma011*gamm011)) #term 1
             - 0.5*lapse*Pi00*(normal0*normal0*Pi00+normal0*normal1*2*Pi01+normal1*normal1*Pi11) #term 2
-            - lapse*gamma11*Phi00(normal0*Pi01+normal1*Pi11)  #term3
+            - lapse*gamma11*Phi00(normal0*Pi01+normal1*Pi11)  #term 3
+            + 2*lapse*(deriH00 + invg00*gamma000*(paragamma4*C0-H0) + invg01*gamma000*(paragamma4*C1-H1)
+            + invg01*gamma100*(paragamma4*C0-H0) + invg11*gamma100*(paragamma4*C1-H1)
+            - 0.5*paragamma5*g00*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) #term 4
+            + lapse*paragamma0*((-2*lapse-g00*normal0)*C0+(-g00*normal1)*C1)  #term 5
+            - paragamma1*paragamma2*shift*Phi_00  #term 6
+            - 4*lapse/r/r*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1)) #term 7
+            + 16*pi*lapse*(T00-0.5*T_scalar*g00)
+
+    src_Pi01 = 2*lapse*(invg00(gamma11*Phi00*Phi01-Pi00*Pi01-invg00*gamma000*gamma100
+            - invg01*(gamma000*gamma101+gamma001*gamma100) - invg11*gamma001*gamma101)
+            + invg01*(gamma11*Phi00*Phi11-Pi00*Pi11-invg00*gamma000*gamma101
+            - invg01*(gamma000*gamma111+gamma001*gamma101)-invg11*gamma001*gamma111)
+            + invg01*(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma001*gamma100
+            - invg01*(gamma001*gamma101+gamma011*gamma100)-invg11*gamma011*gamma101)
+            + invg11*(gamma11*Phi01*Phi11-Pi01*Pi11-invg00*gamma001*gamma101
+            - invg01*(gamma001*gamma111+gamma011*gamma101)-invg11*gamma011*gamma111)) #term 1
+            - 0.5*lapse*Pi01*(normal0*normal0*Pi00+normal0*normal1*2*Pi01+normal1*normal1*Pi11) #term 2
+            - lapse*gamma11*Phi01(normal0*Pi01+normal1*Pi11)  #term 3
+            + 2*lapse*(0.5*(deriH01+deriH10) + invg00*gamma001*(paragamma4*C0-H0) + invg01*gamma001*(paragamma4*C1-H1)
+            + invg01*gamma101*(paragamma4*C0-H0) + invg11*gamma101*(paragamma4*C1-H1)
+            - 0.5*paragamma5*g01*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) #term 4
+            + lapse*paragamma0*((-g01*normal0)*C0+(-lapse-g01*normal1)*C1)  #term 5
+            - paragamma1*paragamma2*shift*Phi_01  #term 6
+            - 4*lapse/r/r*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g11*(r*Phi_S+1)) #term 7
+            + 16*pi*lapse*(T01-0.5*T_scalar*g01)
+
+    src_Pi11 = 2*lapse*(invg00(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma100*gamma100
+            -2*invg01*gamma100*gamma101 - invg11*gamma101*gamma101)
+            + invg01*(gamma11*Phi01*Phi11-Pi01*Pi11-invg00*gamma100*gamma101
+            - invg01*(gamma100*gamma111+gamma101*gamma101)-invg11*gamma101*gamma111)
+            + invg01*(gamma11*Phi11*Phi01-Pi11*Pi01-invg00*gamma101*gamma100
+            - invg01*(gamma101*gamma101+gamma111*gamma100)-invg11*gamma111*gamma101)
+            + invg11*(gamma11*Phi11*Phi11-Pi11*Pi11-invg00*gamma101*gamma101
+            - invg01*2*gamma101*gamma111-invg11*gamma111*gamm111)) #term 1
+            - 0.5*lapse*Pi11*(normal0*normal0*Pi00+normal0*normal1*2*Pi01+normal1*normal1*Pi11) #term 2
+            - lapse*gamma11*Phi11(normal0*Pi01+normal1*Pi11)  #term 3
+            + 2*lapse*(deriH11 + invg00*gamma011*(paragamma4*C0-H0) + invg01*gamma011*(paragamma4*C1-H1)
+            + invg01*gamma111*(paragamma4*C0-H0) + invg11*gamma111*(paragamma4*C1-H1)
+            - 0.5*paragamma5*g11*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) #term 4
+            + lapse*paragamma0*((-g11*normal0)*C0+(-g11*normal1)*C1)  #term 5
+            - paragamma1*paragamma2*shift*Phi_11  #term 6
+            - 4*lapse/r/r*(gamma11*g11*(r*Phi_S+1))*(gamma11*g11*(r*Phi_S+1)) #term 7
+            + 16*pi*lapse*(T11-0.5*T_scalar*g11)
 
     
 
     #source terms for Phi_AB 
     src_Phi00 = lapse*(0.5*Pi00*(normal0*normal0*Phi00 + 2*normal0*normal1*Phi01 + normal1*normal1*Phi11)
-            + gamma11*Phi00(normal0*Phi01 + normal1*Phi11) - gamma2*Phi00)
+            + gamma11*Phi00(normal0*Phi01 + normal1*Phi11) - paragamma2*Phi00)
     src_Phi01 = lapse*(0.5*Pi01*(normal0*normal0*Phi00 + 2*normal0*normal1*Phi01 + normal1*normal1*Phi11)
-            + gamma11*Phi01(normal0*Phi01 + normal1*Phi11) - gamma2*Phi01)
+            + gamma11*Phi01(normal0*Phi01 + normal1*Phi11) - paragamma2*Phi01)
     src_Phi00 = lapse*(0.5*Pi11*(normal0*normal0*Phi00 + 2*normal0*normal1*Phi01 + normal1*normal1*Phi11)
-            + gamma11*Phi11(normal0*Phi01 + normal1*Phi11) - gamma2*Phi11)
+            + gamma11*Phi11(normal0*Phi01 + normal1*Phi11) - paragamma2*Phi11)
 
     #source terms for S
     src_S = -lapse*Pi_S - paragamma1*shift*Phi_S
@@ -104,7 +147,7 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, r):
             - 2*lapse*(Pi_S*Pi_S-gamma11*Phi_S*Phi_S) + 4*lapse/r*(normal1*Pi_S-gamma11*Phi_S)
             + 3/r/r*(lapse*gamma11+shift*normal1) + 8/r*lapse*Phi_S + lapse/r/r*exp(-2*S) #row4
     src_Phi_S = lapse*(0.5*Pi_S*(normal0*normal*Phi00 + 2*normal0*normal1*Phi01 + normal1*normal1*Phi11)
-            + gamma11*Pi_S*(normal0*Phi01 + normal1*Phi11) - gamma2*Phi_S)
+            + gamma11*Pi_S*(normal0*Phi01 + normal1*Phi11) - paragamma2*Phi_S)
     return [] 
 
     #source terms for psi
@@ -113,7 +156,7 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, r):
             - paragamma1*paragamma2*shift*Phi_psi - lapse*(gamma11*Phi_psi*(normal0*Pi01+normal1*Pi11)
             + 0.5*Pi_psi*(normal0*normal0*Pi00 + 2*normal0*normal1*Pi01 + normal1*normal1*Pi11))
     src_Phi_psi = lapse*(0.5*Pi_psi*(normal0*normal*Phi00 + 2*normal0*normal1*Phi01 + normal1*normal1*Phi11)
-           + gamma11*Phi_psi*(normal0*Phi01 + normal1*Phi11) - gamma2*Phi_psi)
+           + gamma11*Phi_psi*(normal0*Phi01 + normal1*Phi11) - paragamma2*Phi_psi)
 
 def get_Hhat_forms(var_list, deri_list, invg_list, lapse, shift):
     return []
