@@ -1,0 +1,4528 @@
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+dt=0.01
+temp_var[2.1]=-0.04761905134009298
+var[2.1]=-0.04761903905676923
+rhs[2.1]=1.2283323724364029e-06
+temp_var[2.109]=-0.05168326586762751
+var[2.109]=-0.05168329064182916
+rhs[2.109]=-2.477420165818169e-06
+temp_var[2.118]=-0.055712940329145415
+var[2.118]=-0.05571296468405475
+rhs[2.118]=-2.435490932814983e-06
+temp_var[2.127]=-0.05970851317399056
+var[2.127]=-0.05970853711845346
+rhs[2.127]=-2.394446286401051e-06
+temp_var[2.136]=-0.0636704154619076
+var[2.136]=-0.06367043900453508
+rhs[2.136]=-2.3542627484198217e-06
+temp_var[2.145]=-0.06759907101807223
+var[2.145]=-0.06759909416725415
+rhs[2.145]=-2.3149181961532698e-06
+temp_var[2.154]=-0.07149489658423253
+var[2.154]=-0.07149491934815301
+rhs[2.154]=-2.2763920468157292e-06
+temp_var[2.163]=-0.0753583019660756
+var[2.163]=-0.07535832435272455
+rhs[2.163]=-2.2386648939828147e-06
+temp_var[2.172]=-0.07918969017692579
+var[2.172]=-0.07918971219407406
+rhs[2.172]=-2.201714829937542e-06
+temp_var[2.181]=-0.08298945757789794
+var[2.181]=-0.08298947923315046
+rhs[2.181]=-2.1655252520692043e-06
+temp_var[2.19]=-0.08675799401457798
+var[2.19]=-0.08675801531533169
+rhs[2.19]=-2.130075376109259e-06
+temp_var[2.199]=-0.09049568295036163
+var[2.199]=-0.09049570390383964
+rhs[2.199]=-2.095347794607627e-06
+temp_var[2.208]=-0.09420290159652618
+var[2.208]=-0.09420292220978636
+rhs[2.208]=-2.061326020809881e-06
+temp_var[2.217]=-0.09788002103912713
+var[2.217]=-0.09788004131902982
+rhs[2.217]=-2.027990269219264e-06
+temp_var[2.226]=-0.10152740636283517
+var[2.226]=-0.10152742631611199
+rhs[2.226]=-1.99532768432163e-06
+temp_var[2.235]=-0.10514541677175643
+var[2.235]=-0.10514543640493863
+rhs[2.235]=-1.9633182134711873e-06
+temp_var[2.244]=-0.10873440570737028
+var[2.244]=-0.1087344250268634
+rhs[2.244]=-1.931949309668125e-06
+temp_var[2.253]=-0.11229472096361916
+var[2.253]=-0.11229473997566014
+rhs[2.253]=-1.9012040986628915e-06
+temp_var[2.262]=-0.11582670479926278
+var[2.262]=-0.11582672350993384
+rhs[2.262]=-1.8710671106116045e-06
+temp_var[2.271]=-0.11933069404756415
+var[2.271]=-0.11933071246283196
+rhs[2.271]=-1.8415267766719227e-06
+temp_var[2.28]=-0.12280702022336104
+var[2.28]=-0.12280703834901958
+rhs[2.28]=-1.8125658508380286e-06
+temp_var[2.289]=-0.12625600962762912
+var[2.289]=-0.12625602746934708
+rhs[2.289]=-1.784171787393723e-06
+temp_var[2.298]=-0.12967798344958212
+var[2.298]=-0.12967800101290616
+rhs[2.298]=-1.7563324017625657e-06
+temp_var[2.307]=-0.13307325786637544
+var[2.307]=-0.13307327515670844
+rhs[2.307]=-1.7290332990411004e-06
+temp_var[2.316]=-0.13644214414049574
+var[2.316]=-0.13644216116311575
+rhs[2.316]=-1.7022619968473696e-06
+temp_var[2.325]=-0.13978494871488384
+var[2.325]=-0.13978496547497177
+rhs[2.325]=-1.6760087903115263e-06
+temp_var[2.334]=-0.14310197330584837
+var[2.334]=-0.14310198980842798
+rhs[2.334]=-1.650257961471333e-06
+temp_var[2.343]=-0.14639351499385747
+var[2.343]=-0.14639353124386267
+rhs[2.343]=-1.625000517241186e-06
+temp_var[2.352]=-0.1496598663122266
+var[2.352]=-0.14965988231446736
+rhs[2.352]=-1.6002240863005271e-06
+temp_var[2.361]=-0.1529013153337903
+var[2.361]=-0.15290133109296683
+rhs[2.361]=-1.5759176517000867e-06
+temp_var[2.37]=-0.15611814575559574
+var[2.37]=-0.15611816127632766
+rhs[2.37]=-1.5520731902998468e-06
+temp_var[2.379]=-0.15931063698166284
+var[2.379]=-0.15931065226841024
+rhs[2.379]=-1.5286747247029133e-06
+temp_var[2.388]=-0.16247906420389943
+var[2.388]=-0.16247907926107616
+rhs[2.388]=-1.5057176765183037e-06
+temp_var[2.397]=-0.16562369848116518
+var[2.397]=-0.16562371331306355
+rhs[2.397]=-1.4831898318691514e-06
+temp_var[2.406]=-0.1687448068165738
+var[2.406]=-0.16874482142738023
+rhs[2.406]=-1.461080643553955e-06
+temp_var[2.415]=-0.17184265223307352
+var[2.415]=-0.171842666626905
+rhs[2.415]=-1.439383154747726e-06
+temp_var[2.424]=-0.17491749384732636
+var[2.424]=-0.17491750802818476
+rhs[2.424]=-1.4180858372656801e-06
+temp_var[2.433]=-0.17796958694196693
+var[2.433]=-0.1779696009137864
+rhs[2.433]=-1.397181946792023e-06
+temp_var[2.442]=-0.18099918303624712
+var[2.442]=-0.1809991968028606
+rhs[2.442]=-1.3766613427938114e-06
+temp_var[2.451]=-0.18400652995513303
+var[2.451]=-0.18400654352029255
+rhs[2.451]=-1.3565159398322744e-06
+temp_var[2.46]=-0.18699187189688585
+var[2.46]=-0.1869918852642626
+rhs[2.46]=-1.3367376694327682e-06
+temp_var[2.469]=-0.18995544949916152
+var[2.469]=-0.18995546267235944
+rhs[2.469]=-1.3173197971714172e-06
+temp_var[2.478]=-0.19289749990366348
+var[2.478]=-0.19289751288616894
+rhs[2.478]=-1.2982505532844227e-06
+temp_var[2.487]=-0.1958182568194132
+var[2.487]=-0.19581826961469045
+rhs[2.487]=-1.2795277190383012e-06
+temp_var[2.496]=-0.19871795058462366
+var[2.496]=-0.1987179631960266
+rhs[2.496]=-1.2611402924827183e-06
+temp_var[2.505]=-0.2015968082272586
+var[2.505]=-0.2015968206580733
+rhs[2.505]=-1.2430814648559756e-06
+temp_var[2.514]=-0.20445505352428764
+var[2.514]=-0.20445506577774547
+rhs[2.514]=-1.2253457771816291e-06
+temp_var[2.523]=-0.2072929070596628
+var[2.523]=-0.20729291913889764
+rhs[2.523]=-1.2079234790636374e-06
+temp_var[2.532]=-0.21011058628107857
+var[2.532]=-0.2101105981892022
+rhs[2.532]=-1.1908123673706931e-06
+temp_var[2.541]=-0.21290830555549878
+var[2.541]=-0.21290831729550533
+rhs[2.541]=-1.1740006651289102e-06
+temp_var[2.55]=-0.21568627622353606
+var[2.55]=-0.21568628779839527
+rhs[2.55]=-1.1574859198832345e-06
+temp_var[2.559]=-0.21844470665266238
+var[2.559]=-0.2184447180652657
+rhs[2.559]=-1.1412603328970385e-06
+temp_var[2.568]=-0.22118380228930898
+var[2.568]=-0.2211838135424821
+rhs[2.568]=-1.1253173166516415e-06
+temp_var[2.577]=-0.22390376570988044
+var[2.577]=-0.22390377680641402
+rhs[2.577]=-1.1096533556199276e-06
+temp_var[2.586]=-0.2266047966706849
+var[2.586]=-0.22660480761327903
+rhs[2.586]=-1.094259410219373e-06
+temp_var[2.595]=-0.2292870921568512
+var[2.595]=-0.2292871029481752
+rhs[2.595]=-1.0791324004358634e-06
+temp_var[2.604]=-0.23195084643020838
+var[2.604]=-0.23195085707286411
+rhs[2.604]=-1.0642655710977108e-06
+temp_var[2.613]=-0.23459625107618892
+var[2.613]=-0.2345962615727254
+rhs[2.613]=-1.049653649812395e-06
+temp_var[2.622]=-0.237223495049762
+var[2.622]=-0.23722350540268
+rhs[2.622]=-1.035291807092757e-06
+temp_var[2.631]=-0.2398327647204258
+var[2.631]=-0.23983277493218166
+rhs[2.631]=-1.0211755827942774e-06
+temp_var[2.64]=-0.24242424391627163
+var[2.64]=-0.24242425398924483
+rhs[2.64]=-1.0072973163827935e-06
+temp_var[2.649]=-0.2449981139671667
+var[2.649]=-0.24499812390372627
+rhs[2.649]=-9.936559445296876e-07
+temp_var[2.658]=-0.24755455374703808
+var[2.658]=-0.24755456354947275
+rhs[2.658]=-9.80243454773189e-07
+temp_var[2.667]=-0.25009373971532006
+var[2.667]=-0.2500937493858874
+rhs[2.667]=-9.670567383720465e-07
+temp_var[2.676]=-0.25261584595755365
+var[2.676]=-0.25261585549846977
+rhs[2.676]=-9.540916140928128e-07
+temp_var[2.685]=-0.2551210442251677
+var[2.685]=-0.25512105363858567
+rhs[2.685]=-9.413417987819622e-07
+temp_var[2.694]=-0.25760950397447807
+var[2.694]=-0.25760951326253967
+rhs[2.694]=-9.288061459571027e-07
+temp_var[2.703]=-0.26008139240488565
+var[2.703]=-0.26008140156965337
+rhs[2.703]=-9.164767729126688e-07
+temp_var[2.712]=-0.26253687449633245
+var[2.712]=-0.2625368835398505
+rhs[2.712]=-9.043518105915562e-07
+temp_var[2.721]=-0.26497611304600505
+var[2.721]=-0.26497612197027454
+rhs[2.721]=-8.92426947960156e-07
+temp_var[2.73]=-0.26739926870431363
+var[2.73]=-0.26739927751129067
+rhs[2.73]=-8.80697688477039e-07
+temp_var[2.739]=-0.2698065000101632
+var[2.739]=-0.2698065087017727
+rhs[2.739]=-8.69160941929055e-07
+temp_var[2.748]=-0.2721979634255296
+var[2.748]=-0.2721979720036542
+rhs[2.748]=-8.578124711099423e-07
+temp_var[2.757]=-0.27457381336935666
+var[2.757]=-0.2745738218358316
+rhs[2.757]=-8.466475017245458e-07
+temp_var[2.766]=-0.2769342022508025
+var[2.766]=-0.27693421060744844
+rhs[2.766]=-8.356646093365528e-07
+temp_var[2.775]=-0.2792792805018231
+var[2.775]=-0.27927928875041863
+rhs[2.775]=-8.248595380204578e-07
+temp_var[2.784]=-0.2816091966091314
+var[2.784]=-0.28160920475140694
+rhs[2.784]=-8.142275504936437e-07
+temp_var[2.793]=-0.28392409714554573
+var[2.793]=-0.2839241051832204
+rhs[2.793]=-8.037674812056449e-07
+temp_var[2.802]=-0.2862241268007156
+var[2.802]=-0.28622413473544805
+rhs[2.802]=-7.934732610573422e-07
+temp_var[2.811]=-0.2885094284112805
+var[2.811]=-0.28850943624472936
+rhs[2.811]=-7.833448899340397e-07Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+temp_var[2.82]=-0.2907801429904303
+var[2.82]=-0.290780150724197
+rhs[2.82]=-7.733766504686331e-07
+temp_var[2.829]=-0.2930364097569143
+var[2.829]=-0.29303641739258224
+rhs[2.829]=-7.635668027559665e-07
+temp_var[2.838]=-0.29527836616349445
+var[2.838]=-0.2952783737026169
+rhs[2.838]=-7.539122385570258e-07
+temp_var[2.847]=-0.29750614792485464
+var[2.847]=-0.29750615536894237
+rhs[2.847]=-7.444087575429407e-07
+temp_var[2.856]=-0.29971988904499464
+var[2.856]=-0.2997198963955555
+rhs[2.856]=-7.350560816831257e-07
+temp_var[2.865]=-0.30191972184409016
+var[2.865]=-0.3019197291025801
+rhs[2.865]=-7.258489937470844e-07
+temp_var[2.874]=-0.30410577698486174
+var[2.874]=-0.30410578415271405
+rhs[2.874]=-7.167852170995088e-07
+temp_var[2.883]=-0.30627818349844854
+var[2.883]=-0.3062781905770816
+rhs[2.883]=-7.078633084594477e-07
+temp_var[2.892]=-0.30843706880978977
+var[2.892]=-0.30843707580057944
+rhs[2.892]=-6.990789752763687e-07
+temp_var[2.901]=-0.3105825587625459
+var[2.901]=-0.3105825656668562
+rhs[2.901]=-6.90431033343675e-07
+temp_var[2.91]=-0.31271477764354755
+var[2.91]=-0.3127147844627137
+rhs[2.91]=-6.819166139067066e-07
+temp_var[2.919]=-0.31483384820679494
+var[2.919]=-0.31483385494211863
+rhs[2.919]=-6.735323689061254e-07
+temp_var[2.928]=-0.31693989169702136
+var[2.928]=-0.31693989834979225
+rhs[2.928]=-6.652770945256953e-07
+temp_var[2.937]=-0.31903302787281124
+var[2.937]=-0.3190330344442867
+rhs[2.937]=-6.571475347719809e-07
+temp_var[2.946]=-0.32111337502930676
+var[2.946]=-0.3211133815207252
+rhs[2.946]=-6.491418575733425e-07
+temp_var[2.955]=-0.32318105002048975
+var[2.955]=-0.32318105643307443
+rhs[2.955]=-6.41258471428435e-07
+temp_var[2.964]=-0.32523616828106117
+var[2.964]=-0.3252361746159909
+rhs[2.964]=-6.334929727504428e-07
+temp_var[2.973]=-0.32727884384792943
+var[2.973]=-0.3272788501063921
+rhs[2.973]=-6.258462866972766e-07
+temp_var[2.982]=-0.329309189381295
+var[2.982]=-0.3293091955644264
+rhs[2.982]=-6.183131392665801e-07
+temp_var[2.991]=-0.33132731618537264
+var[2.991]=-0.33132732529437126
+rhs[2.991]=-9.108998472183798e-07
+temp_var[3.]=-0.3333333324286886
+var[3.]=-0.33333333546502525
+rhs[3.]=-3.036336466500872e-07
+dt=0.01
+temp_var[2.1]=-0.04761905134009298
+var[2.1]=-0.047618985517058975
+rhs[2.1]=5.35397103015941e-06
+temp_var[2.109]=-0.05168326586762751
+var[2.109]=-0.051683542854638394
+rhs[2.109]=-2.5221280919580557e-05
+temp_var[2.118]=-0.055712940329145415
+var[2.118]=-0.05571315121026976
+rhs[2.118]=-1.8652621496196304e-05
+temp_var[2.127]=-0.05970851317399056
+var[2.127]=-0.0597087205022842
+rhs[2.127]=-1.8338383067181043e-05
+temp_var[2.136]=-0.0636704154619076
+var[2.136]=-0.06367061931187343
+rhs[2.136]=-1.80307338282067e-05
+temp_var[2.145]=-0.06759907101807223
+var[2.145]=-0.06759927146229587
+rhs[2.145]=-1.772950416135288e-05
+temp_var[2.154]=-0.07149489658423253
+var[2.154]=-0.07149509369352625
+rhs[2.154]=-1.7434537316349508e-05
+temp_var[2.163]=-0.0753583019660756
+var[2.163]=-0.07535849580963248
+rhs[2.163]=-1.714569078511349e-05
+temp_var[2.172]=-0.07918969017692579
+var[2.172]=-0.07918988082191332
+rhs[2.172]=-1.6862783916146452e-05
+temp_var[2.181]=-0.08298945757789794
+var[2.181]=-0.08298964509020625
+rhs[2.181]=-1.6585705566008798e-05
+temp_var[2.19]=-0.08675799401457798
+var[2.19]=-0.0867581784581706
+rhs[2.19]=-1.631428388200222e-05
+temp_var[2.199]=-0.09049568295036163
+var[2.199]=-0.0904958643877408
+rhs[2.199]=-1.604839009763472e-05
+temp_var[2.208]=-0.09420290159652618
+var[2.208]=-0.09420308008883306
+rhs[2.208]=-1.5787904654204578e-05
+temp_var[2.217]=-0.09788002103912713
+var[2.217]=-0.09788019664562343
+rhs[2.217]=-1.55326593429423e-05
+temp_var[2.226]=-0.10152740636283517
+var[2.226]=-0.10152757914190501
+rhs[2.226]=-1.5282579290280784e-05
+temp_var[2.235]=-0.10514541677175643
+var[2.235]=-0.10514558677980317
+rhs[2.235]=-1.5037486441962029e-05
+temp_var[2.244]=-0.10873440570737028
+var[2.244]=-0.10873457299990999
+rhs[2.244]=-1.4797304643387564e-05
+temp_var[2.253]=-0.11229472096361916
+var[2.253]=-0.11229488559461083
+rhs[2.253]=-1.4561895055011232e-05
+temp_var[2.262]=-0.11582670479926278
+var[2.262]=-0.11582686682128594
+rhs[2.262]=-1.4331135194482495e-05
+temp_var[2.271]=-0.11933069404756415
+var[2.271]=-0.11933085351235677
+rhs[2.271]=-1.4104952469053073e-05
+temp_var[2.28]=-0.12280702022336104
+var[2.28]=-0.12280717718099617
+rhs[2.28]=-1.3883197645021325e-05
+temp_var[2.289]=-0.12625600962762912
+var[2.289]=-0.1262561641271661
+rhs[2.289]=-1.3665781880698851e-05
+temp_var[2.298]=-0.12967798344958212
+var[2.298]=-0.12967813553906782
+rhs[2.298]=-1.3452616148323198e-05
+temp_var[2.307]=-0.13307325786637544
+var[2.307]=-0.1330734075925439
+rhs[2.307]=-1.3243583526426086e-05
+temp_var[2.316]=-0.13644214414049574
+var[2.316]=-0.13644229154898502
+rhs[2.316]=-1.3038586918438239e-05
+temp_var[2.325]=-0.13978494871488384
+var[2.325]=-0.1397850938506417
+rhs[2.325]=-1.2837566974828124e-05
+temp_var[2.334]=-0.14310197330584837
+var[2.334]=-0.14310211621224492
+rhs[2.334]=-1.2640381681411728e-05
+temp_var[2.343]=-0.14639351499385747
+var[2.343]=-0.1463936557136584
+rhs[2.343]=-1.2446979554324446e-05
+temp_var[2.352]=-0.1496598663122266
+var[2.352]=-0.14966000488704326
+rhs[2.352]=-1.2257257569230265e-05
+temp_var[2.361]=-0.1529013153337903
+var[2.361]=-0.15290145180425815
+rhs[2.361]=-1.2071129118195397e-05
+temp_var[2.37]=-0.15611814575559574
+var[2.37]=-0.1561182801618336
+rhs[2.37]=-1.1888550575962456e-05
+temp_var[2.379]=-0.15931063698166284
+var[2.379]=-0.1593107693620891
+rhs[2.379]=-1.1709367870045541e-05
+temp_var[2.388]=-0.16247906420389943
+var[2.388]=-0.16247919459684723
+rhs[2.388]=-1.153357708083452e-05
+temp_var[2.397]=-0.16562369848116518
+var[2.397]=-0.16562382692376432
+rhs[2.397]=-1.1361070056004975e-05
+temp_var[2.406]=-0.1687448068165738
+var[2.406]=-0.1687449333450008
+rhs[2.406]=-1.119176203799701e-05
+temp_var[2.415]=-0.17184265223307352
+var[2.415]=-0.17184277688304397
+rhs[2.415]=-1.1025613865445948e-05
+temp_var[2.424]=-0.17491749384732636
+var[2.424]=-0.1749176166533995
+rhs[2.424]=-1.0862521454827496e-05
+temp_var[2.433]=-0.17796958694196693
+var[2.433]=-0.1779697079382564
+rhs[2.433]=-1.0702446983345787e-05
+temp_var[2.442]=-0.18099918303624712
+var[2.442]=-0.1809993022558992
+rhs[2.442]=-1.0545303826410823e-05
+temp_var[2.451]=-0.18400652995513303
+var[2.451]=-0.18400664743062486
+rhs[2.451]=-1.039103320341593e-05
+temp_var[2.46]=-0.18699187189688585
+var[2.46]=-0.1869919876599754
+rhs[2.46]=-1.0239571259223182e-05
+temp_var[2.469]=-0.18995544949916152
+var[2.469]=-0.18995556358113255
+rhs[2.469]=-1.009087729169833e-05
+temp_var[2.478]=-0.19289749990366348
+var[2.478]=-0.1928976123345353
+rhs[2.478]=-9.944836610488478e-06
+temp_var[2.487]=-0.1958182568194132
+var[2.487]=-0.19581836762931965
+rhs[2.487]=-9.801462895404834e-06
+temp_var[2.496]=-0.19871795058462366
+var[2.496]=-0.19871805980253024
+rhs[2.496]=-9.66065033368277e-06
+temp_var[2.505]=-0.2015968082272586
+var[2.505]=-0.20159691588158815
+rhs[2.505]=-9.52235147488488e-06
+temp_var[2.514]=-0.20445505352428764
+var[2.514]=-0.2044551596430867
+rhs[2.514]=-9.386534097596094e-06
+temp_var[2.523]=-0.2072929070596628
+var[2.523]=-0.20729301166993402
+rhs[2.523]=-9.25310361448025e-06
+temp_var[2.532]=-0.21011058628107857
+var[2.532]=-0.21011068940991978
+rhs[2.532]=-9.122071736546592e-06
+temp_var[2.541]=-0.21290830555549878
+var[2.541]=-0.21290840722867535
+rhs[2.541]=-8.993316978595805e-06
+temp_var[2.55]=-0.21568627622353606
+var[2.55]=-0.21568637646684413
+rhs[2.55]=-8.866844875866902e-06
+temp_var[2.559]=-0.21844470665266238
+var[2.559]=-0.21844480549111517
+rhs[2.559]=-8.742584929467228e-06
+temp_var[2.568]=-0.22118380228930898
+var[2.568]=-0.2211838997473149
+rhs[2.568]=-8.62048325637969e-06
+temp_var[2.577]=-0.22390376570988044
+var[2.577]=-0.22390386181169242
+rhs[2.577]=-8.500527810688291e-06
+temp_var[2.586]=-0.2266047966706849
+var[2.586]=-0.22660489143957743
+rhs[2.586]=-8.3826298184562e-06
+temp_var[2.595]=-0.2292870921568512
+var[2.595]=-0.2292871856159963
+rhs[2.595]=-8.26678206898545e-06
+temp_var[2.604]=-0.23195084643020838
+var[2.604]=-0.23195093860210328
+rhs[2.604]=-8.15292389455214e-06
+temp_var[2.613]=-0.23459625107618892
+var[2.613]=-0.23459634198289647
+rhs[2.613]=-8.041017062600476e-06
+temp_var[2.622]=-0.237223495049762
+var[2.622]=-0.23722358471292337
+rhs[2.622]=-7.931024320868504e-06
+temp_var[2.631]=-0.2398327647204258Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+var[2.631]=-0.23983285316136158
+rhs[2.631]=-7.82291795647096e-06
+temp_var[2.64]=-0.24242424391627163
+var[2.64]=-0.24242433115547088
+rhs[2.64]=-7.716622571443563e-06
+temp_var[2.649]=-0.2449981139671667
+var[2.649]=-0.24499820002525485
+rhs[2.649]=-7.61215282495706e-06
+temp_var[2.658]=-0.24755455374703808
+var[2.658]=-0.2475546386437469
+rhs[2.658]=-7.509427377519294e-06
+temp_var[2.667]=-0.25009373971532006
+var[2.667]=-0.2500938234702146
+rhs[2.667]=-7.408432705500076e-06
+temp_var[2.676]=-0.25261584595755365
+var[2.676]=-0.2526159285898545
+rhs[2.676]=-7.309138434831042e-06
+temp_var[2.685]=-0.2551210442251677
+var[2.685]=-0.2551211257534292
+rhs[2.685]=-7.211484314472236e-06
+temp_var[2.694]=-0.25760950397447807
+var[2.694]=-0.2576095844173516
+rhs[2.694]=-7.115481169857924e-06
+temp_var[2.703]=-0.26008139240488565
+var[2.703]=-0.26008147178013263
+rhs[2.703]=-7.021047895511752e-06
+temp_var[2.712]=-0.26253687449633245
+var[2.712]=-0.26253695282168993
+rhs[2.712]=-6.928183906107415e-06
+temp_var[2.721]=-0.26497611304600505
+var[2.721]=-0.26497619033880004
+rhs[2.721]=-6.836852515715857e-06
+temp_var[2.73]=-0.26739926870431363
+var[2.73]=-0.26739934498145784
+rhs[2.73]=-6.7470166958470305e-06
+temp_var[2.739]=-0.2698065000101632
+var[2.739]=-0.269806575288341
+rhs[2.739]=-6.658656800180796e-06
+temp_var[2.748]=-0.2721979634255296
+var[2.748]=-0.2721980377210532
+rhs[2.748]=-6.571739865935708e-06
+temp_var[2.757]=-0.27457381336935666
+var[2.757]=-0.27457388669805677
+rhs[2.757]=-6.486222473448946e-06
+temp_var[2.766]=-0.2769342022508025
+var[2.766]=-0.2769342746284875
+rhs[2.766]=-6.402103868113876e-06
+temp_var[2.775]=-0.2792792805018231
+var[2.775]=-0.27927935194390235
+rhs[2.775]=-6.31934834543729e-06
+temp_var[2.784]=-0.2816091966091314
+var[2.784]=-0.28160926713052453
+rhs[2.784]=-6.237911746119764e-06
+temp_var[2.793]=-0.28392409714554573
+var[2.793]=-0.2839241667612246
+rhs[2.793]=-6.157800382263868e-06
+temp_var[2.802]=-0.2862241268007156
+var[2.802]=-0.2862241955249347
+rhs[2.802]=-6.078948638408417e-06
+temp_var[2.811]=-0.2885094284112805
+var[2.811]=-0.2885094962584952
+rhs[2.811]=-6.001376564306576e-06
+temp_var[2.82]=-0.2907801429904303
+var[2.82]=-0.29078020997444104
+rhs[2.82]=-5.925024376170744e-06
+temp_var[2.829]=-0.2930364097569143
+var[2.829]=-0.2930364758914534
+rhs[2.829]=-5.849887083191512e-06
+temp_var[2.838]=-0.29527836616349445
+var[2.838]=-0.29527843146202853
+rhs[2.838]=-5.775941111922782e-06
+temp_var[2.847]=-0.29750614792485464
+var[2.847]=-0.29750621240039865
+rhs[2.847]=-5.703145576164831e-06
+temp_var[2.856]=-0.29971988904499464
+var[2.856]=-0.2997199527106846
+rhs[2.856]=-5.6315128673883675e-06
+temp_var[2.865]=-0.30191972184409016
+var[2.865]=-0.30191978471248565
+rhs[2.865]=-5.56099050682503e-06
+temp_var[2.874]=-0.30410577698486174
+var[2.874]=-0.30410583906835703
+rhs[2.874]=-5.491564267363255e-06
+temp_var[2.883]=-0.30627818349844854
+var[2.883]=-0.3062782448093735
+rhs[2.883]=-5.423229160063577e-06
+temp_var[2.892]=-0.30843706880978977
+var[2.892]=-0.3084371293600046
+rhs[2.892]=-5.355942466873959e-06
+temp_var[2.901]=-0.3105825587625459
+var[2.901]=-0.3105826185638865
+rhs[2.901]=-5.289703004276997e-06
+temp_var[2.91]=-0.31271477764354755
+var[2.91]=-0.3127148367075881
+rhs[2.91]=-5.2244873951733155e-06
+temp_var[2.919]=-0.31483384820679494
+var[2.919]=-0.3148339065447645
+rhs[2.919]=-5.1602645512019574e-06
+temp_var[2.928]=-0.31693989169702136
+var[2.928]=-0.31693994932012426
+rhs[2.928]=-5.097033152142831e-06
+temp_var[2.937]=-0.31903302787281124
+var[2.937]=-0.3190330847919062
+rhs[2.937]=-5.0347619221814414e-06
+temp_var[2.946]=-0.32111337502930676
+var[2.946]=-0.3211134312551204
+rhs[2.946]=-4.973439482188085e-06
+temp_var[2.955]=-0.32318105002048975
+var[2.955]=-0.32318110556365504
+rhs[2.955]=-4.913058011346236e-06
+temp_var[2.964]=-0.32523616828106117
+var[2.964]=-0.3252362231516964
+rhs[2.964]=-4.853570510102621e-06
+temp_var[2.973]=-0.32727884384792943
+var[2.973]=-0.3272788980564249
+rhs[2.973]=-4.795003238636936e-06
+temp_var[2.982]=-0.329309189381295
+var[2.982]=-0.3293092379372919
+rhs[2.982]=-4.237286494631252e-06
+temp_var[2.991]=-0.33132731618537264
+var[2.991]=-0.33132740503733116
+rhs[2.991]=-7.974295938661794e-06
+temp_var[3.]=-0.3333333324286886
+var[3.]=-0.33333334858563557
+rhs[3.]=-1.3120609864826614e-06
+dt=0.01
+temp_var[2.1]=-0.04761901842857608
+var[2.1]=-0.047618639385691386
+rhs[2.1]=3.790428847270338e-05
+temp_var[2.109]=-0.051683404361133084
+var[2.109]=-0.05168469238837512
+rhs[2.109]=-0.00012880272420413502
+temp_var[2.118]=-0.0557130457697077
+var[2.118]=-0.0557137203238126
+rhs[2.118]=-6.745541049300838e-05
+temp_var[2.127]=-0.059708616838137524
+var[2.127]=-0.059709331206398146
+rhs[2.127]=-7.143682605883444e-05
+temp_var[2.136]=-0.06367051738689071
+var[2.136]=-0.06367121976257682
+rhs[2.136]=-7.02375686149927e-05
+temp_var[2.145]=-0.06759917124018426
+var[2.145]=-0.06759986187368924
+rhs[2.145]=-6.906335050125228e-05
+temp_var[2.154]=-0.07149499513887951
+var[2.154]=-0.07149567427445838
+rhs[2.154]=-6.791355788794984e-05
+temp_var[2.163]=-0.07535839888785426
+var[2.163]=-0.07535906676463014
+rhs[2.163]=-6.678767758393759e-05
+temp_var[2.172]=-0.0791897854994198
+var[2.172]=-0.07919044234857162
+rhs[2.172]=-6.56849151790368e-05
+temp_var[2.181]=-0.08298955133405231
+var[2.181]=-0.08299019738349016
+rhs[2.181]=-6.460494378623309e-05
+temp_var[2.19]=-0.08675808623637439
+var[2.19]=-0.08675872170644322
+rhs[2.19]=-6.354700688129053e-05
+temp_var[2.199]=-0.09049577366905145
+var[2.199]=-0.09049639877534711
+rhs[2.199]=-6.251062956483966e-05
+temp_var[2.208]=-0.09420299084267983
+var[2.208]=-0.09420360579660204
+rhs[2.208]=-6.149539222037477e-05
+temp_var[2.217]=-0.09788010884237551
+var[2.217]=-0.09788071384758873
+rhs[2.217]=-6.05005213177231e-05
+temp_var[2.226]=-0.1015274927523703
+var[2.226]=-0.10152808801123239
+rhs[2.226]=-5.9525886209026895e-05
+temp_var[2.235]=-0.10514550177577996
+var[2.235]=-0.1051460874820071
+rhs[2.235]=-5.857062271748614e-05
+temp_var[2.244]=-0.10873448935364037
+var[2.244]=-0.10873506569933158
+rhs[2.244]=-5.7634569120239594e-05
+temp_var[2.253]=-0.11229480327911522
+var[2.253]=-0.11229537045029522
+rhs[2.253]=-5.671711799687404e-05
+temp_var[2.262]=-0.11582678581027465
+var[2.262]=-0.11582734398791067
+rhs[2.262]=-5.581776359679745e-05
+temp_var[2.271]=-0.1193307737799607
+var[2.271]=-0.11933132314322707
+rhs[2.271]=-5.4936326640199986e-05
+temp_var[2.28]=-0.12280709870217892
+var[2.28]=-0.1228076394232966
+rhs[2.28]=-5.4072111778966996e-05
+temp_var[2.289]=-0.12625608687739806
+var[2.289]=-0.12625661912561748
+rhs[2.289]=-5.3224821945715975e-05
+temp_var[2.298]=-0.12967805949432534
+var[2.298]=-0.1296785834356458
+rhs[2.298]=-5.239413205011536e-05
+temp_var[2.307]=-0.1330733327294601
+var[2.307]=-0.13307384852493045
+rhs[2.307]=-5.1579547026648936e-05
+temp_var[2.316]=-0.13644221784474064
+var[2.316]=-0.1364427256514619
+rhs[2.316]=-5.078067212732683e-05
+temp_var[2.325]=-0.13978502128276318
+var[2.325]=-0.1397855212565224
+rhs[2.325]=-4.999737592381959e-05
+temp_var[2.334]=-0.143102044759047
+var[2.334]=-0.14310253704865056
+rhs[2.334]=-4.922896035187991e-05
+temp_var[2.343]=-0.14639358535375824
+var[2.343]=-0.14639407010718108
+rhs[2.343]=-4.8475342289189335e-05
+temp_var[2.352]=-0.1496599355996351
+var[2.352]=-0.14966041296026578
+rhs[2.352]=-4.773606306075321e-05
+temp_var[2.361]=-0.15290138356902463
+var[2.361]=-0.15290185367665396
+rhs[2.361]=-4.701076293689553e-05
+temp_var[2.37]=-0.15611821295871517
+var[2.37]=-0.1561186759526943
+rhs[2.37]=-4.629939791878774e-05
+temp_var[2.379]=-0.1593107031718764
+var[2.379]=-0.15931115918339625
+rhs[2.379]=-4.560115199054405e-05
+temp_var[2.388]=-0.1624791294003736
+var[2.388]=-0.16247957856256903
+rhs[2.388]=-4.491621953957204e-05
+temp_var[2.397]=-0.16562376270246504
+var[2.397]=-0.16562420514319712
+rhs[2.397]=-4.4244073209574875e-05
+temp_var[2.406]=-0.16874487008078776
+var[2.406]=-0.16874530592442646
+rhs[2.406]=-4.3584363870600536e-05
+temp_var[2.415]=-0.17184271455805925
+var[2.415]=-0.17184314392835717
+rhs[2.415]=-4.293702979615529e-05
+temp_var[2.424]=-0.17491755525036334
+var[2.424]=-0.1749179782659287
+rhs[2.424]=-4.230155653529241e-05
+temp_var[2.433]=-0.17796964744011196
+var[2.433]=-0.17797006421902667
+rhs[2.433]=-4.167789146885227e-05
+temp_var[2.442]=-0.1809992426460736
+var[2.442]=-0.18099965330240966Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+rhs[2.442]=-4.106563360411037e-05
+temp_var[2.451]=-0.18400658869287945
+var[2.451]=-0.18400699333868092
+rhs[2.451]=-4.046458015863479e-05
+temp_var[2.46]=-0.18699192977843093
+var[2.46]=-0.18699232852301914
+rhs[2.46]=-3.9874458830627977e-05
+temp_var[2.469]=-0.18995550654014753
+var[2.469]=-0.1899558994920612
+rhs[2.469]=-3.929519136888202e-05
+temp_var[2.478]=-0.19289755611909992
+var[2.478]=-0.19289794338072716
+rhs[2.478]=-3.872616272984383e-05
+temp_var[2.487]=-0.19581831222436707
+var[2.487]=-0.19581869390067622
+rhs[2.487]=-3.816763092094857e-05
+temp_var[2.496]=-0.19871800519357752
+var[2.496]=-0.19871838138394318
+rhs[2.496]=-3.7619036573632896e-05
+temp_var[2.505]=-0.20159686205442381
+var[2.505]=-0.20159723285672018
+rhs[2.505]=-3.7080229647769534e-05
+temp_var[2.514]=-0.20445510658368768
+var[2.514]=-0.20445547209518078
+rhs[2.514]=-3.6551149307839776e-05
+temp_var[2.523]=-0.20729295936479883
+var[2.523]=-0.20729331967766224
+rhs[2.523]=-3.6031286330063474e-05
+temp_var[2.532]=-0.21011063784549974
+var[2.532]=-0.21011099305434536
+rhs[2.532]=-3.5520884556473416e-05
+temp_var[2.541]=-0.21290835639208774
+var[2.541]=-0.21290870658464164
+rhs[2.541]=-3.5019255398430206e-05
+temp_var[2.55]=-0.2156863263451904
+var[2.55]=-0.21568667161106495
+rhs[2.55]=-3.452658744308705e-05
+temp_var[2.559]=-0.21844475607188935
+var[2.559]=-0.2184450964971903
+rhs[2.559]=-3.404253008204589e-05
+temp_var[2.568]=-0.2211838510183124
+var[2.568]=-0.22118418668682632
+rhs[2.568]=-3.356685138426594e-05
+temp_var[2.577]=-0.22390381376078705
+var[2.577]=-0.2239041447568134
+rhs[2.577]=-3.309960264617291e-05
+temp_var[2.586]=-0.22660484405513143
+var[2.586]=-0.2266051704581985
+rhs[2.586]=-3.2640306715630215e-05
+temp_var[2.595]=-0.2292871388864244
+var[2.595]=-0.22928746077690038
+rhs[2.595]=-3.218904760487397e-05
+temp_var[2.604]=-0.2319508925161565
+var[2.604]=-0.23195120997140414
+rhs[2.604]=-3.174552477381031e-05
+temp_var[2.613]=-0.23459629652954325
+var[2.613]=-0.23459660962562365
+rhs[2.613]=-3.130960802556251e-05
+temp_var[2.622]=-0.2372235398813431
+var[2.622]=-0.23722384869278068
+rhs[2.622]=-3.0881143762816204e-05
+temp_var[2.631]=-0.23983280894089434
+var[2.631]=-0.2398331135416195
+rhs[2.631]=-3.0460072517796987e-05
+temp_var[2.64]=-0.24242428753587184
+var[2.64]=-0.24242458799572444
+rhs[2.64]=-3.0045985251006212e-05
+temp_var[2.649]=-0.24499815699621144
+var[2.649]=-0.24499845338714618
+rhs[2.649]=-2.9639093459529384e-05
+temp_var[2.658]=-0.2475545961953931
+var[2.658]=-0.24755488858483607
+rhs[2.658]=-2.9238944298030483e-05
+temp_var[2.667]=-0.2500937815927676
+var[2.667]=-0.25009407004831535
+rhs[2.667]=-2.8845554772074978e-05
+temp_var[2.676]=-0.25261588727370476
+var[2.676]=-0.2526161718618851
+rhs[2.676]=-2.845881803564964e-05
+temp_var[2.685]=-0.25512108498929903
+var[2.685]=-0.25512136577344763
+rhs[2.685]=-2.8078414863560187e-05
+temp_var[2.694]=-0.2576095441959153
+var[2.694]=-0.257609821241135
+rhs[2.694]=-2.770452197306218e-05
+temp_var[2.703]=-0.26008143209250967
+var[2.703]=-0.26008170545932435
+rhs[2.703]=-2.733668146938706e-05
+temp_var[2.712]=-0.2625369136590119
+var[2.712]=-0.2625371834088795
+rhs[2.712]=-2.6974986763676198e-05
+temp_var[2.721]=-0.26497615169240313
+var[2.721]=-0.26497641788505555
+rhs[2.721]=-2.6619265227703932e-05
+temp_var[2.73]=-0.2673993068428865
+var[2.73]=-0.2673995695364692
+rhs[2.73]=-2.6269358276234437e-05
+temp_var[2.739]=-0.2698065376492527
+var[2.739]=-0.269806796901393
+rhs[2.739]=-2.592521403287693e-05
+temp_var[2.748]=-0.27219800057329224
+var[2.748]=-0.27219825644031614
+rhs[2.748]=-2.5586702383503022e-05
+temp_var[2.757]=-0.2745738500337075
+var[2.757]=-0.2745741025698
+rhs[2.757]=-2.5253609254528586e-05
+temp_var[2.766]=-0.27693423843964554
+var[2.766]=-0.2769344876996073
+rhs[2.766]=-2.492599617620562e-05
+temp_var[2.775]=-0.2792793162228631
+var[2.775]=-0.2792795622598847
+rhs[2.775]=-2.4603702150057957e-05
+temp_var[2.784]=-0.28160923186982845
+var[2.784]=-0.28160947473489073
+rhs[2.784]=-2.4286506223113684e-05
+temp_var[2.793]=-0.28392413195338584
+var[2.793]=-0.2839243716987305
+rhs[2.793]=-2.397453446018806e-05
+temp_var[2.802]=-0.28622416116282595
+var[2.802]=-0.2862243978368261
+rhs[2.802]=-2.3667400028571597e-05
+temp_var[2.811]=-0.2885094623348884
+var[2.811]=-0.2885096959880698
+rhs[2.811]=-2.3365318151864812e-05
+temp_var[2.82]=-0.29078017648243615
+var[2.82]=-0.29078040716188536
+rhs[2.82]=-2.3067944897218328e-05
+temp_var[2.829]=-0.2930364428241844
+var[2.829]=-0.29303667057739663
+rhs[2.829]=-2.277532121793771e-05
+temp_var[2.838]=-0.29527839881276247
+var[2.838]=-0.29527862368630164
+rhs[2.838]=-2.248735394427198e-05
+temp_var[2.847]=-0.29750618016262736
+var[2.847]=-0.2975064022008821
+rhs[2.847]=-2.2203825465499876e-05
+temp_var[2.856]=-0.29971992087784
+var[2.856]=-0.2997201401266539
+rhs[2.856]=-2.192488138535975e-05
+temp_var[2.865]=-0.30191975327828874
+var[2.865]=-0.3019199697806176
+rhs[2.865]=-2.1650232888395486e-05
+temp_var[2.874]=-0.30410580802661025
+var[2.874]=-0.30410602182508206
+rhs[2.874]=-2.137984717815995e-05
+temp_var[2.883]=-0.3062782141539118
+var[2.883]=-0.30627842529135757
+rhs[2.883]=-2.1113744572159613e-05
+temp_var[2.892]=-0.30843709908489786
+var[2.892]=-0.3084373076018235
+rhs[2.892]=-2.0851692571854986e-05
+temp_var[2.901]=-0.3105825886632168
+var[2.901]=-0.31058279460060845
+rhs[2.901]=-2.059373915917019e-05
+temp_var[2.91]=-0.3127148071755685
+var[2.91]=-0.3127150105733871
+rhs[2.91]=-2.033978185318573e-05
+temp_var[2.919]=-0.31483387737578034
+var[2.919]=-0.31483407827245763
+rhs[2.919]=-2.008966772098719e-05
+temp_var[2.928]=-0.31693992050857367
+var[2.928]=-0.3169401189429875
+rhs[2.928]=-1.9843441389320526e-05
+temp_var[2.937]=-0.31903305633235945
+var[2.937]=-0.31903325234175284
+rhs[2.937]=-1.960093933302295e-05
+temp_var[2.946]=-0.3211134031422144
+var[2.946]=-0.3211135967635296
+rhs[2.946]=-1.936213152476278e-05
+temp_var[2.955]=-0.32318107779207333
+var[2.955]=-0.323181269062293
+rhs[2.955]=-1.9127021973395395e-05
+temp_var[2.964]=-0.3252361957163798
+var[2.964]=-0.32523638466972676
+rhs[2.964]=-1.8895334700864085e-05
+temp_var[2.973]=-0.3272788709521778
+var[2.973]=-0.3272790617919669
+rhs[2.973]=-1.9083978897527816e-05
+temp_var[2.982]=-0.32930921365929416
+var[2.982]=-0.32930934311623944
+rhs[2.982]=-1.2945694542600167e-05
+temp_var[2.991]=-0.3313273606113529
+var[2.991]=-0.33132774638143464
+rhs[2.991]=-3.8577008188928336e-05
+temp_var[3.]=-0.333333340507163
+var[3.]=-0.3333334330979656
+rhs[3.]=-9.259080245339637e-06
+dt=0.01
+temp_var[2.1]=-0.04761901842857608
+var[2.1]=-0.04761538569230799
+rhs[2.1]=0.0003253693383438005
+temp_var[2.109]=-0.051683404361133084
+var[2.109]=-0.05169836099754034
+rhs[2.109]=-0.0013668609165137882
+temp_var[2.118]=-0.0557130457697077
+var[2.118]=-0.05571779952326978
+rhs[2.118]=-0.00040791994571312697
+temp_var[2.127]=-0.059708616838137524
+var[2.127]=-0.059714890474243165
+rhs[2.127]=-0.0005559267844945152
+temp_var[2.136]=-0.06367051738689071
+var[2.136]=-0.06367660031568408
+rhs[2.136]=-0.0005380553107148308
+temp_var[2.145]=-0.06759917124018426
+var[2.145]=-0.06760515240614592
+rhs[2.145]=-0.0005290532456607948
+temp_var[2.154]=-0.07149499513887951
+var[2.154]=-0.07150087665937908
+rhs[2.154]=-0.0005202384920659456
+temp_var[2.163]=-0.07535839888785426
+var[2.163]=-0.07536418284203826
+rhs[2.163]=-0.0005116077408005331
+temp_var[2.172]=-0.0791897854994198
+var[2.172]=-0.07919547388499838
+rhs[2.172]=-0.0005031536426657817
+temp_var[2.181]=-0.08298955133405231
+var[2.181]=-0.0829951461352418
+rhs[2.181]=-0.0004948751751552254
+temp_var[2.19]=-0.08675808623637439
+var[2.19]=-0.08676358935988943
+rhs[2.19]=-0.00048676534461180573
+temp_var[2.199]=-0.09049577366905145
+var[2.199]=-0.09050118698411218
+rhs[2.199]=-0.00047882087649340924
+temp_var[2.208]=-0.09420299084267983
+var[2.208]=-0.09420831618887497
+rhs[2.208]=-0.00047103922727629465
+temp_var[2.217]=-0.09788010884237551
+var[2.217]=-0.09788534797555527
+rhs[2.217]=-0.00046341279664413273
+temp_var[2.226]=-0.1015274927523703
+var[2.226]=-0.10153264743991312
+rhs[2.226]=-0.00045594286806433925
+temp_var[2.235]=-0.10514550177577996
+var[2.235]=-0.105150573686169
+rhs[2.235]=-0.00044862041618276864
+temp_var[2.244]=-0.10873448935364037
+var[2.244]=-0.10873948016038802
+rhs[2.244]=-0.0004414461056310982
+temp_var[2.253]=-0.11229480327911522
+var[2.253]=-0.11229971459391541
+rhs[2.253]=-0.0004344143620035368
+temp_var[2.262]=-0.11582678581027465
+var[2.262]=-0.1158316191971569
+rhs[2.262]=-0.00042752092461008134
+temp_var[2.271]=-0.1193307737799607
+var[2.271]=-0.11933553080139978
+rhs[2.271]=-0.0004207658172583054
+temp_var[2.28]=-0.12280709870217892
+var[2.28]=-0.1228117808450981
+rhs[2.28]=-0.0004141421801307751
+temp_var[2.289]=-0.12625608687739806
+var[2.289]=-0.12626069561000358
+rhs[2.289]=-0.0004076484385975238
+temp_var[2.298]=-0.12967805949432534
+var[2.298]=-0.12968259625895823
+rhs[2.298]=-0.0004012823312263059
+temp_var[2.307]=-0.1330733327294601
+var[2.307]=-0.1330777989210224
+rhs[2.307]=-0.0003950396091786443
+temp_var[2.316]=-0.13644221784474064
+var[2.316]=-0.13644661482112003
+rhs[2.316]=-0.0003889169658009869
+temp_var[2.325]=-0.13978502128276318
+var[2.325]=-0.13978935040425997
+rhs[2.325]=-0.00038291477373034817
+temp_var[2.334]=-0.143102044759047
+var[2.334]=-0.14310630730572352
+rhs[2.334]=-0.00037702570727077186
+temp_var[2.343]=-0.14639358535375824
+var[2.343]=-0.14639778261493647
+rhs[2.343]=-0.0003712507755196593
+temp_var[2.352]=-0.1496599355996351
+var[2.352]=-0.14966406881693095
+rhs[2.352]=-0.00036558566650917503
+temp_var[2.361]=-0.15290138356902463
+var[2.361]=-0.15290545394922234
+rhs[2.361]=-0.00036002725681380656
+temp_var[2.37]=-0.15611821295871517
+var[2.37]=-0.156122221722883
+rhs[2.37]=-0.0003545770188536532
+temp_var[2.379]=-0.1593107031718764
+var[2.379]=-0.15931465144061951
+rhs[2.379]=-0.0003492257223068976
+temp_var[2.388]=-0.1624791294003736
+var[2.388]=-0.1624830183399614
+rhs[2.388]=-0.00034397773922871197
+temp_var[2.397]=-0.16562376270246504
+var[2.397]=-0.16562759341845454
+rhs[2.397]=-0.000338827525720914
+temp_var[2.406]=-0.16874487008078776
+var[2.406]=-0.16874864364660971
+rhs[2.406]=-0.0003337722183031174
+temp_var[2.415]=-0.17184271455805925
+var[2.415]=-0.17184643205410785
+rhs[2.415]=-0.00032881257504334947
+temp_var[2.424]=-0.17491755525036334
+var[2.424]=-0.17492121769717428
+rhs[2.424]=-0.00032394312453580196
+temp_var[2.433]=-0.17796964744011196
+var[2.433]=-0.1779732558671314
+rhs[2.433]=-0.0003191648104569029
+temp_var[2.442]=-0.1809992426460736
+var[2.442]=-0.18100279803887034
+rhs[2.442]=-0.0003144736460415457
+temp_var[2.451]=-0.18400658869287945
+var[2.451]=-0.18401009202388222
+rhs[2.451]=-0.00030986852010145413
+temp_var[2.46]=-0.18699192977843093
+var[2.46]=-0.1869953819920355
+rhs[2.46]=-0.00030534690161552395
+temp_var[2.469]=-0.18995550654014753
+var[2.469]=-0.18995890858616377
+rhs[2.469]=-0.0003009094102278212
+temp_var[2.478]=-0.19289755611909992
+var[2.478]=-0.1929009088704789
+rhs[2.478]=-0.00029654897515050797
+temp_var[2.487]=-0.19581831222436707
+var[2.487]=-0.19582161660458944
+rhs[2.487]=-0.0002922703912937874
+temp_var[2.496]=-0.19871800519357752
+var[2.496]=-0.19872126205718432
+rhs[2.496]=-0.00028806732408255764
+temp_var[2.505]=-0.20159686205442381
+var[2.505]=-0.20160007224826268
+rhs[2.505]=-0.00028393915422549433
+temp_var[2.514]=-0.20445510658368768
+var[2.514]=-0.20445827095828598
+rhs[2.514]=-0.000279886310497176
+temp_var[2.523]=-0.20729295936479883
+var[2.523]=-0.20729607870649805
+rhs[2.523]=-0.00027590288357024156
+temp_var[2.532]=-0.21011063784549974
+var[2.532]=-0.2101137129898552
+rhs[2.532]=-0.000271993550950358
+temp_var[2.541]=-0.21290835639208774
+var[2.541]=-0.21291138808481458
+rhs[2.541]=-0.00026815001726777216
+temp_var[2.55]=-0.2156863263451904
+var[2.55]=-0.2156893153719211
+rhs[2.55]=-0.00026437608559582457
+temp_var[2.559]=-0.21844475607188935
+var[2.559]=-0.21844770317691112
+rhs[2.559]=-0.0002606679720536761
+temp_var[2.568]=-0.2211838510183124
+var[2.568]=-0.22118675692303566
+rhs[2.568]=-0.0002570236208998766
+temp_var[2.577]=-0.22390381376078705
+var[2.577]=-0.2239066792046012
+rhs[2.577]=-0.0002534447787566194
+temp_var[2.586]=-0.22660484405513143
+var[2.586]=-0.2266076697178947
+rhs[2.586]=-0.0002499259696011674
+temp_var[2.595]=-0.2292871388864244
+var[2.595]=-0.22928992547103277
+rhs[2.595]=-0.0002464694132065257
+temp_var[2.604]=-0.2319508925161565
+var[2.604]=-0.23195364069019175
+rhs[2.604]=-0.00024307187873200194
+temp_var[2.613]=-0.23459629652954325
+var[2.613]=-0.2345990069525352
+rhs[2.613]=-0.00023973269111835006
+temp_var[2.622]=-0.2372235398813431
+var[2.622]=-0.2372262131975217
+rhs[2.622]=-0.00023645047408321014
+temp_var[2.631]=-0.23983280894089434
+var[2.631]=-0.23983544579674923
+rhs[2.631]=-0.00023322551293238604
+temp_var[2.64]=-0.24242428753587184
+var[2.64]=-0.24242688852624714
+rhs[2.64]=-0.00023005305223987684
+temp_var[2.649]=-0.24499815699621144
+var[2.649]=-0.2450007227556906
+rhs[2.649]=-0.00022693685440455062
+temp_var[2.658]=-0.2475545961953931
+var[2.658]=-0.2475571273004143
+rhs[2.658]=-0.00022387155779915463
+temp_var[2.667]=-0.2500937815927676
+var[2.667]=-0.25009627863111106
+rhs[2.667]=-0.00022085827954109968
+temp_var[2.676]=-0.25261588727370476
+var[2.676]=-0.25261835082538603
+rhs[2.676]=-0.00021789635004927448
+temp_var[2.685]=-0.25512108498929903
+var[2.685]=-0.25512351559483043
+rhs[2.685]=-0.00021498213823898158
+temp_var[2.694]=-0.2576095441959153
+var[2.694]=-0.25761194242997054
+rhs[2.694]=-0.0002121188835288149
+temp_var[2.703]=-0.26008143209250967
+var[2.703]=-0.26008379847032703
+rhs[2.703]=-0.0002093011002211742
+temp_var[2.712]=-0.2625369136590119
+var[2.712]=-0.2625392487175136
+rhs[2.712]=-0.00020653086337711082
+temp_var[2.721]=-0.26497615169240313
+var[2.721]=-0.2649784559488962
+rhs[2.721]=-0.00020380638403121287
+temp_var[2.73]=-0.2673993068428865
+var[2.73]=-0.267401580799376
+rhs[2.73]=-0.0002011262906516466
+temp_var[2.739]=-0.2698065376492527
+var[2.739]=-0.2698087818063248
+rhs[2.739]=-0.00019849049314658529
+temp_var[2.748]=-0.27219800057329224
+var[2.748]=-0.27220021542036765
+rhs[2.748]=-0.0001958980051231843
+temp_var[2.757]=-0.2745738500337075
+var[2.757]=-0.27457603603563946
+rhs[2.757]=-0.00019334658390236345
+temp_var[2.766]=-0.27693423843964554
+var[2.766]=-0.2769363960749147
+rhs[2.766]=-0.0001908375307377219
+temp_var[2.775]=-0.2792793162228631
+var[2.775]=-0.27928144595330373
+rhs[2.775]=-0.0001883693418759244
+temp_var[2.784]=-0.28160923186982845
+var[2.784]=-0.28161133413132317
+rhs[2.784]=-0.0001859396432397346
+temp_var[2.793]=-0.28392413195338584
+var[2.793]=-0.28392620720708217
+rhs[2.793]=-0.00018355083512999805
+temp_var[2.802]=-0.28622416116282595
+var[2.802]=-0.28622620981775804
+rhs[2.802]=-0.00018119809315018996
+temp_var[2.811]=-0.2885094623348884
+var[2.811]=-0.28851148483808814
+rhs[2.811]=-0.00017888500181083557
+temp_var[2.82]=-0.29078017648243615
+var[2.82]=-0.2907821732354094
+rhs[2.82]=-0.00017660735236463886
+temp_var[2.829]=-0.2930364428241844
+var[2.829]=-0.29303841424061255
+rhs[2.829]=-0.00017436632156696814
+temp_var[2.838]=-0.29527839881276247
+var[2.838]=-0.29528034529811104
+rhs[2.838]=-0.0001721611808920816
+temp_var[2.847]=-0.29750618016262736
+var[2.847]=-0.2975081020953557
+rhs[2.847]=-0.00016998944732298353
+temp_var[2.856]=-0.29971992087784
+var[2.856]=-0.2997218186623235
+rhs[2.856]=-0.00016785356692917993
+temp_var[2.865]=-0.30191975327828874
+var[2.865]=-0.30192162728237526
+rhs[2.865]=-0.00016575017572875033
+temp_var[2.874]=-0.30410580802661025
+var[2.874]=-0.304107658618674
+rhs[2.874]=-0.000163679359162065
+temp_var[2.883]=-0.3062782141539118
+var[2.883]=-0.3062800417091918
+rhs[2.883]=-0.0001616417833641798
+temp_var[2.892]=-0.30843709908489786
+var[2.892]=-0.308438903949586
+rhs[2.892]=-0.000159634776207219
+temp_var[2.901]=-0.3105825886632168
+var[2.901]=-0.3105843711948559
+rhs[2.901]=-0.00015765942471625895
+temp_var[2.91]=-0.3127148071755685
+var[2.91]=-0.31271656772114664
+rhs[2.91]=-0.00015571477591423317
+temp_var[2.919]=-0.31483387737578034
+var[2.919]=-0.3148356162649004
+rhs[2.919]=-0.00015379924422952046
+temp_var[2.928]=-0.31693992050857367
+var[2.928]=-0.316941638081466
+rhs[2.928]=-0.00015191384778797382
+temp_var[2.937]=-0.31903305633235945
+var[2.937]=-0.31903475290938843
+rhs[2.937]=-0.00015005676354259571
+temp_var[2.946]=-0.3211134031422144
+var[2.946]=-0.3211150790427954
+rhs[2.946]=-0.0001482279265403804
+temp_var[2.955]=-0.32318107779207333
+var[2.955]=-0.3231827333412135
+rhs[2.955]=-0.00014642789201301984
+temp_var[2.964]=-0.3252361957163798
+var[2.964]=-0.3252378242574068
+rhs[2.964]=-0.00014395876796267638
+temp_var[2.973]=-0.3272788709521778
+var[2.973]=-0.3272806284154679
+rhs[2.973]=-0.00015666235007441402
+temp_var[2.982]=-0.32930921365929416Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+var[2.982]=-0.329309803114013
+rhs[2.982]=-4.5999777310185176e-05
+temp_var[2.991]=-0.3313273606113529
+var[2.991]=-0.33133146348082554
+rhs[2.991]=-0.0003717099390415891
+temp_var[3.]=-0.333333340507163
+var[3.]=-0.33333422479620667
+rhs[3.]=-7.916982407447382e-05
+dt=0.01
+temp_var[2.1]=-0.047617202060442176
+var[2.1]=-0.04759942656859091
+rhs[2.1]=0.0017775491851237935
+temp_var[2.109]=-0.051690882679336844
+var[2.109]=-0.051765976036569836
+rhs[2.109]=-0.007509335723299296
+temp_var[2.118]=-0.055715422646488835
+var[2.118]=-0.055722160189769124
+rhs[2.118]=-0.0006737543280272794
+temp_var[2.127]=-0.059711753656190525
+var[2.127]=-0.05973478691709934
+rhs[2.127]=-0.002303326090882714
+temp_var[2.136]=-0.06367355885128757
+var[2.136]=-0.06369444522010871
+rhs[2.136]=-0.0020886368821190207
+temp_var[2.145]=-0.06760216182316525
+var[2.145]=-0.06762276973363145
+rhs[2.145]=-0.002060791046621928
+temp_var[2.154]=-0.0714979358991294
+var[2.154]=-0.07151820033160629
+rhs[2.154]=-0.0020264432476903723
+temp_var[2.163]=-0.07536129086494647
+var[2.163]=-0.07538121902715948
+rhs[2.163]=-0.0019928162213006403
+temp_var[2.172]=-0.07919262969220928
+var[2.172]=-0.07921222841968063
+rhs[2.172]=-0.0019598727471360935
+temp_var[2.181]=-0.08299234873464723
+var[2.181]=-0.0830116249242927
+rhs[2.181]=-0.0019276189645487031
+temp_var[2.19]=-0.08676083779813205
+var[2.19]=-0.08677979799425019
+rhs[2.19]=-0.0018960196118128123
+temp_var[2.199]=-0.09049848032658203
+var[2.199]=-0.09051713097022956
+rhs[2.199]=-0.0018650643647508418
+temp_var[2.208]=-0.09420565351577763
+var[2.208]=-0.09422400099658637
+rhs[2.208]=-0.0018347480808744174
+temp_var[2.217]=-0.09788272840896564
+var[2.217]=-0.09790077870505835
+rhs[2.217]=-0.0018050296092756682
+temp_var[2.226]=-0.10153007009614197
+var[2.226]=-0.10154782939397018
+rhs[2.226]=-0.0017759297828159896
+temp_var[2.235]=-0.10514803773097467
+var[2.235]=-0.10516551170004065
+rhs[2.235]=-0.001747396906599407
+temp_var[2.244]=-0.10873698475701445
+var[2.244]=-0.10875417922398338
+rhs[2.244]=-0.0017194466968943258
+temp_var[2.253]=-0.11229725893651556
+var[2.253]=-0.11231417944848396
+rhs[2.253]=-0.0016920511968349294
+temp_var[2.262]=-0.11582920250371612
+var[2.262]=-0.11584585441694051
+rhs[2.262]=-0.0016651913224401751
+temp_var[2.271]=-0.11933315229068049
+var[2.271]=-0.11934954105443447
+rhs[2.271]=-0.0016388763753970245
+temp_var[2.28]=-0.12280943977363887
+var[2.28]=-0.12282557046940133
+rhs[2.28]=-0.0016130695762483754
+temp_var[2.289]=-0.1262583912437011
+var[2.289]=-0.12627426894068045
+rhs[2.289]=-0.001587769697935562
+temp_var[2.298]=-0.12968032787664213
+var[2.298]=-0.1296959575664748
+rhs[2.298]=-0.0015629689832666763
+temp_var[2.307]=-0.13307556582524152
+var[2.307]=-0.13309095230993906
+rhs[2.307]=-0.0015386484697516858
+temp_var[2.316]=-0.13644441633293058
+var[2.316]=-0.13645956426269945
+rhs[2.316]=-0.0015147929768882054
+temp_var[2.325]=-0.1397871858435119
+var[2.325]=-0.13980209997702148
+rhs[2.325]=-0.0014914133509549088
+temp_var[2.334]=-0.14310417603238562
+var[2.334]=-0.14311886071035557
+rhs[2.334]=-0.0014684677969895674
+temp_var[2.343]=-0.14639568398434766
+var[2.343]=-0.14641014369951985
+rhs[2.343]=-0.001445971517205201
+temp_var[2.352]=-0.1496620022082833
+var[2.352]=-0.14967624123152018
+rhs[2.352]=-0.0014239023236825542
+temp_var[2.361]=-0.15290341875912392
+var[2.361]=-0.15291744121126774
+rhs[2.361]=-0.0014022452143776238
+temp_var[2.37]=-0.1561202173407996
+var[2.37]=-0.15613402752642974
+rhs[2.37]=-0.0013810185630193394
+temp_var[2.379]=-0.15931267730624843
+var[2.379]=-0.15932627896950205
+rhs[2.379]=-0.0013601663253598904
+temp_var[2.388]=-0.16248107387016777
+var[2.388]=-0.16249447111953055
+rhs[2.388]=-0.0013397249362778838
+temp_var[2.397]=-0.1656256780604602
+var[2.397]=-0.16563887468446664
+rhs[2.397]=-0.0013196624006459217
+temp_var[2.406]=-0.16874675686369925
+var[2.406]=-0.16875975653137582
+rhs[2.406]=-0.0012999667676607748
+temp_var[2.415]=-0.17184457330608402
+var[2.415]=-0.1718573797973229
+rhs[2.415]=-0.0012806491238851955
+temp_var[2.424]=-0.1749193864737693
+var[2.424]=-0.17493200325076505
+rhs[2.424]=-0.001261677699569986
+temp_var[2.433]=-0.17797145165362202
+var[2.433]=-0.1779838823089459
+rhs[2.433]=-0.0012430655323923494
+temp_var[2.442]=-0.18100102034247245
+var[2.442]=-0.1810132682488716
+rhs[2.442]=-0.0012247906399154571
+temp_var[2.451]=-0.1840083403583812
+var[2.451]=-0.18402040888078366
+rhs[2.451]=-0.001206852240236972
+temp_var[2.46]=-0.18699365588523353
+var[2.46]=-0.18700554825190924
+rhs[2.46]=-0.0011892366675744321
+temp_var[2.469]=-0.18995720756315626
+var[2.469]=-0.1899689271163359
+rhs[2.469]=-0.0011719553179712976
+temp_var[2.478]=-0.19289923249479
+var[2.478]=-0.19291078213940813
+rhs[2.478]=-0.0011549644618109106
+temp_var[2.487]=-0.19581996441447871
+var[2.487]=-0.1958313474321924
+rhs[2.487]=-0.0011383017713672212
+temp_var[2.496]=-0.1987196336253814
+var[2.496]=-0.1987308529119482
+rhs[2.496]=-0.0011219286566836858
+temp_var[2.505]=-0.20159846715134344
+var[2.505]=-0.20160952561680096
+rhs[2.505]=-0.0011058465457478323
+temp_var[2.514]=-0.20445668877098735
+var[2.514]=-0.2044675894031647
+rhs[2.514]=-0.001090063217736685
+temp_var[2.523]=-0.2072945190356491
+var[2.523]=-0.2073052644521553
+rhs[2.523]=-0.0010745416506227426
+temp_var[2.532]=-0.21011217541767793
+var[2.532]=-0.21012276861298113
+rhs[2.532]=-0.0010593195303195242
+temp_var[2.541]=-0.21290987223845168
+var[2.541]=-0.21292031567677436
+rhs[2.541]=-0.001044343832263781
+temp_var[2.55]=-0.2156878208585562
+var[2.55]=-0.21569811731471933
+rhs[2.55]=-0.0010296456163091936
+temp_var[2.559]=-0.21844622962440077
+var[2.559]=-0.2184563816489664
+rhs[2.559]=-0.0010152024565750679
+temp_var[2.568]=-0.2211853039706747
+var[2.568]=-0.22119531401680845
+rhs[2.568]=-0.0010010046133855405
+temp_var[2.577]=-0.22390524648269478
+var[2.577]=-0.2239151171627362
+rhs[2.577]=-0.0009870680041529237
+temp_var[2.586]=-0.2266062568865134
+var[2.586]=-0.22661599047615166
+rhs[2.586]=-0.0009733589638290762
+temp_var[2.595]=-0.22928853217872913
+var[2.595]=-0.22929813114873285
+rhs[2.595]=-0.0009598970003698148
+temp_var[2.604]=-0.23195226660317475
+var[2.604]=-0.23196173323222577
+rhs[2.604]=-0.00094666290509301
+temp_var[2.613]=-0.23459765174103975
+var[2.613]=-0.23460698830849563
+rhs[2.613]=-0.0009336567455876571
+temp_var[2.622]=-0.23722487653943278
+var[2.622]=-0.23723408525130024
+rhs[2.622]=-0.0009208711867466641
+temp_var[2.631]=-0.2398341273688225
+var[2.631]=-0.23984321049777335
+rhs[2.631]=-0.0009083128950879044
+temp_var[2.64]=-0.24242558803106018
+var[2.64]=-0.2424345475523524
+rhs[2.64]=-0.0008959521292242761
+temp_var[2.649]=-0.2449994398759518
+var[2.649]=-0.24500827805711584
+rhs[2.649]=-0.0008838181164172483
+temp_var[2.658]=-0.24755586174790437
+var[2.658]=-0.24756458051879274
+rhs[2.658]=-0.0008718770888226864
+temp_var[2.667]=-0.2500950301119398
+var[2.667]=-0.25010363151400533
+rhs[2.667]=-0.0008601402065668005
+temp_var[2.676]=-0.252617119049546
+var[2.676]=-0.25262560510804694
+rhs[2.676]=-0.0008486058501050884
+temp_var[2.685]=-0.2551223002920654
+var[2.685]=-0.25513067280938934
+rhs[2.685]=-0.0008372517323934907
+temp_var[2.694]=-0.2576107433129434
+var[2.694]=-0.2576190043465085
+rhs[2.694]=-0.0008261033565023618
+temp_var[2.703]=-0.26008261528141896
+var[2.703]=-0.2600907665405286
+rhs[2.703]=-0.0008151259109475257
+temp_var[2.712]=-0.2625380811882635
+var[2.712]=-0.262546124557248
+rhs[2.712]=-0.0008043368984716169
+temp_var[2.721]=-0.2649773038206504
+var[2.721]=-0.2649852410788424
+rhs[2.721]=-0.0007937258192149528
+temp_var[2.73]=-0.2674004438211318
+var[2.73]=-0.2674082766872847
+rhs[2.73]=-0.0007832866152868695
+temp_var[2.739]=-0.26980765972778936
+var[2.739]=-0.26981538993502935
+rhs[2.739]=-0.0007730207239947822
+temp_var[2.748]=-0.2721991079968308
+var[2.748]=-0.27220673724295263
+rhs[2.748]=-0.0007629246121845882
+temp_var[2.757]=-0.27457494303467433
+var[2.757]=-0.274582472890386
+rhs[2.757]=-0.0007529855711833559
+temp_var[2.766]=-0.27693531725728066
+var[2.766]=-0.27694274939631613
+rhs[2.766]=-0.0007432139035339897
+temp_var[2.775]=-0.27928038108808406
+var[2.775]=-0.27928771710975653
+rhs[2.775]=-0.0007336021672505746
+temp_var[2.784]=-0.2816102830005764
+var[2.784]=-0.2816175243649428
+rhs[2.784]=-0.0007241364366472571
+temp_var[2.793]=-0.2839251695802347
+var[2.793]=-0.2839323179400616
+rhs[2.793]=-0.0007148359826752468Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+temp_var[2.802]=-0.28622518549029263
+var[2.802]=-0.2862322421812025
+rhs[2.802]=-0.0007056690909875796
+temp_var[2.811]=-0.28851047358648885
+var[2.811]=-0.2885174402175414
+rhs[2.811]=-0.0006966631052400118
+temp_var[2.82]=-0.29078117485892324
+var[2.82]=-0.2907880527664323
+rhs[2.82]=-0.0006877907509019592
+temp_var[2.829]=-0.293037428532399
+var[2.829]=-0.2930442191586346
+rhs[2.829]=-0.0006790626235661059
+temp_var[2.838]=-0.29527937205543753
+var[2.838]=-0.2952860768131413
+rhs[2.838]=-0.0006704757703837197
+temp_var[2.847]=-0.29750714112899235
+var[2.847]=-0.2975137612788712
+rhs[2.847]=-0.0006620149878768238
+temp_var[2.856]=-0.2997208697700824
+var[2.856]=-0.2997274067568311
+rhs[2.856]=-0.0006536986748685619
+temp_var[2.865]=-0.3019206902803329
+var[2.865]=-0.3019271453411856
+rhs[2.865]=-0.0006455060852680246
+temp_var[2.874]=-0.30410673332264293
+var[2.874]=-0.30411310772176914
+rhs[2.874]=-0.0006374399126216737
+temp_var[2.883]=-0.3062791279315525
+var[2.883]=-0.3062854229914961
+rhs[2.883]=-0.00062950599435748
+temp_var[2.892]=-0.3084380015172429
+var[2.892]=-0.3084442183977594
+rhs[2.892]=-0.0006216880516507488
+temp_var[2.901]=-0.31058347992903684
+var[2.901]=-0.31058961988015943
+rhs[2.901]=-0.0006139951122458138
+temp_var[2.91]=-0.31271568744835815
+var[2.91]=-0.31272175167134497
+rhs[2.91]=-0.000606422298677378
+temp_var[2.919]=-0.31483474682034107
+var[2.919]=-0.31484073642798144
+rhs[2.919]=-0.0005989607640296572
+temp_var[2.928]=-0.3169407792950208
+var[2.928]=-0.31694669548468757
+rhs[2.928]=-0.000591618966674927
+temp_var[2.937]=-0.31903390462087455
+var[2.937]=-0.3190397484809706
+rhs[2.937]=-0.0005843860096170458
+temp_var[2.946]=-0.3211142410925056
+var[2.946]=-0.32112001371822696
+rhs[2.946]=-0.000577262572139883
+temp_var[2.955]=-0.3231819055666442
+var[2.955]=-0.32318761390013556
+rhs[2.955]=-0.0005708333491381916
+temp_var[2.964]=-0.3252370099868942
+var[2.964]=-0.3252424903730298
+rhs[2.964]=-0.0005480386135463419
+temp_var[2.973]=-0.3272797496838237
+var[2.973]=-0.32728687589981725
+rhs[2.973]=-0.000712621599364036
+temp_var[2.982]=-0.32930950838665435
+var[2.982]=-0.3293076846378305
+rhs[2.982]=0.0001823748823894963
+temp_var[2.991]=-0.33132941204609007
+var[2.991]=-0.3313483376508527
+rhs[2.991]=-0.0018925604762613495
+temp_var[3.]=-0.33333378265168595
+var[3.]=-0.3333380918216419
+rhs[3.]=-0.0004309169956092875
+dt=0.01
+temp_var[2.1]=-0.047617202060442176
+var[2.1]=-0.047415480585364225
+rhs[2.1]=0.018394598322676755
+temp_var[2.109]=-0.051690882679336844
+var[2.109]=-0.05260992753800324
+rhs[2.109]=-0.0843951501433333
+temp_var[2.118]=-0.055715422646488835
+var[2.118]=-0.055632671489051294
+rhs[2.118]=0.00894887007178682
+temp_var[2.127]=-0.059711753656190525
+var[2.127]=-0.05994195678858498
+rhs[2.127]=-0.02071698714855935
+temp_var[2.136]=-0.06367355885128757
+var[2.136]=-0.06385131785820654
+rhs[2.136]=-0.01568726380977353
+temp_var[2.145]=-0.06760216182316525
+var[2.145]=-0.06778073234694551
+rhs[2.145]=-0.015796261331398744
+temp_var[2.154]=-0.0714979358991294
+var[2.154]=-0.07167341202449534
+rhs[2.154]=-0.015521169288897239
+temp_var[2.163]=-0.07536129086494647
+var[2.163]=-0.07553385599508046
+rhs[2.163]=-0.015263696792082965
+temp_var[2.172]=-0.07919262969220928
+var[2.172]=-0.07936234228505729
+rhs[2.172]=-0.01501138653765365
+temp_var[2.181]=-0.08299234873464723
+var[2.181]=-0.08315926919253847
+rhs[2.181]=-0.014764426824562473
+temp_var[2.19]=-0.08676083779813205
+var[2.19]=-0.08692502236547872
+rhs[2.19]=-0.014522437122844659
+temp_var[2.199]=-0.09049848032658203
+var[2.199]=-0.09065998468209953
+rhs[2.199]=-0.014285371186984388
+temp_var[2.208]=-0.09420565351577763
+var[2.208]=-0.09436453358132038
+rhs[2.208]=-0.014053258473387262
+temp_var[2.217]=-0.09788272840896564
+var[2.217]=-0.0980390349082098
+rhs[2.217]=-0.013825620315132988
+temp_var[2.226]=-0.10153007009614197
+var[2.226]=-0.10168385780050954
+rhs[2.226]=-0.013602840653920078
+temp_var[2.235]=-0.10514803773097467
+var[2.235]=-0.10529935460257019
+rhs[2.235]=-0.013384290252946934
+temp_var[2.244]=-0.10873698475701445
+var[2.244]=-0.10888588196999574
+rhs[2.244]=-0.01317027460122489
+temp_var[2.253]=-0.11229725893651556
+var[2.253]=-0.11244378437053026
+rhs[2.253]=-0.012960492204620751
+temp_var[2.262]=-0.11582920250371612
+var[2.262]=-0.11597340205862545
+rhs[2.262]=-0.012754764168482167
+temp_var[2.271]=-0.11933315229068049
+var[2.271]=-0.11947507391433414
+rhs[2.271]=-0.01255328598995199
+temp_var[2.28]=-0.12280943977363887
+var[2.28]=-0.12294912686900031
+rhs[2.28]=-0.01235563995988312
+temp_var[2.289]=-0.1262583912437011
+var[2.289]=-0.12639588780851388
+rhs[2.289]=-0.012161886783322194
+temp_var[2.298]=-0.12968032787664213
+var[2.298]=-0.12981567731413332
+rhs[2.298]=-0.011971974765832411
+temp_var[2.307]=-0.13307556582524152
+var[2.307]=-0.1332088096496991
+rhs[2.307]=-0.011785733975984761
+temp_var[2.316]=-0.13644441633293058
+var[2.316]=-0.13657559437051328
+rhs[2.316]=-0.011603010781366099
+temp_var[2.325]=-0.1397871858435119
+var[2.325]=-0.1399163401733586
+rhs[2.325]=-0.011424019633694646
+temp_var[2.334]=-0.14310417603238562
+var[2.334]=-0.14323134328517173
+rhs[2.334]=-0.011248257481591856
+temp_var[2.343]=-0.14639568398434766
+var[2.343]=-0.14652090368217927
+rhs[2.343]=-0.011075998265925337
+temp_var[2.352]=-0.1496620022082833
+var[2.352]=-0.14978531120904254
+rhs[2.352]=-0.01090699775223062
+temp_var[2.361]=-0.15290341875912392
+var[2.361]=-0.15302485218333212
+rhs[2.361]=-0.010741097206407322
+temp_var[2.37]=-0.1561202173407996
+var[2.37]=-0.15623981369976914
+rhs[2.37]=-0.010578617333918
+temp_var[2.379]=-0.15931267730624843
+var[2.379]=-0.15943046747457174
+rhs[2.379]=-0.010418850506948359
+temp_var[2.388]=-0.16248107387016777
+var[2.388]=-0.16259709455961546
+rhs[2.388]=-0.01026234400847785
+temp_var[2.397]=-0.1656256780604602
+var[2.397]=-0.16573996173920957
+rhs[2.397]=-0.010108705474266143
+temp_var[2.406]=-0.16874675686369925
+var[2.406]=-0.16885933491331562
+rhs[2.406]=-0.009957838193962187
+temp_var[2.415]=-0.17184457330608402
+var[2.415]=-0.17195547916850992
+rhs[2.415]=-0.009809937118682523
+temp_var[2.424]=-0.1749193864737693
+var[2.424]=-0.1750286493775975
+rhs[2.424]=-0.009664612683226234
+temp_var[2.433]=-0.17797145165362202
+var[2.433]=-0.17807910328743712
+rhs[2.433]=-0.009522097849107253
+temp_var[2.442]=-0.18100102034247245
+var[2.442]=-0.18110708955430735
+rhs[2.442]=-0.009382130543549725
+temp_var[2.451]=-0.1840083403583812
+var[2.451]=-0.1841128564980433
+rhs[2.451]=-0.00924476172593435
+temp_var[2.46]=-0.18699365588523353
+var[2.46]=-0.18709664648332447
+rhs[2.46]=-0.009109823141507215
+temp_var[2.469]=-0.18995720756315626
+var[2.469]=-0.19005870247887735
+rhs[2.469]=-0.008977536254118814
+temp_var[2.478]=-0.19289923249479
+var[2.478]=-0.19299925552054603
+rhs[2.478]=-0.008847338113762867
+temp_var[2.487]=-0.19581996441447871
+var[2.487]=-0.19591854523525887
+rhs[2.487]=-0.008719780306626847
+temp_var[2.496]=-0.1987196336253814
+var[2.496]=-0.19881679664640015
+rhs[2.496]=-0.008594373445177132
+temp_var[2.505]=-0.20159846715134344
+var[2.505]=-0.20169423746116205
+rhs[2.505]=-0.008471184436088386
+temp_var[2.514]=-0.20445668877098735
+var[2.514]=-0.20455109298735355
+rhs[2.514]=-0.008350358418857833
+temp_var[2.523]=-0.2072945190356491
+var[2.523]=-0.20738757857523102
+rhs[2.523]=-0.00823141230754341
+temp_var[2.532]=-0.21011217541767793
+var[2.532]=-0.2102039177202912
+rhs[2.532]=-0.008114910730989432
+temp_var[2.541]=-0.21290987223845168
+var[2.541]=-0.21300031723790228
+rhs[2.541]=-0.008000156112765994
+temp_var[2.55]=-0.2156878208585562
+var[2.55]=-0.21577699347098334
+rhs[2.55]=-0.007887615626379848
+temp_var[2.559]=-0.21844622962440077
+var[2.559]=-0.21853415172284157
+rhs[2.559]=-0.007777007387486574
+temp_var[2.568]=-0.2211853039706747
+var[2.568]=-0.22127199636610537
+rhs[2.568]=-0.007668234929657141
+temp_var[2.577]=-0.22390524648269478
+var[2.577]=-0.22399073262117722
+rhs[2.577]=-0.007561545844071717
+temp_var[2.586]=-0.2266062568865134
+var[2.586]=-0.2266905555842003
+rhs[2.586]=-0.007456510804832983
+temp_var[2.595]=-0.22928853217872913
+var[2.595]=-0.22937166547418644
+rhs[2.595]=-0.007353432545320872
+temp_var[2.604]=-0.23195226660317475
+var[2.604]=-0.23203425390403734
+rhs[2.604]=-0.0072520671811235095
+temp_var[2.613]=-0.23459765174103975
+var[2.613]=-0.23467851290702108
+rhs[2.613]=-0.007152459852523269
+temp_var[2.622]=-0.23722487653943278Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+var[2.622]=-0.23730463043588618
+rhs[2.622]=-0.007054518458563846
+temp_var[2.631]=-0.2398341273688225
+var[2.631]=-0.23991279428169804
+rhs[2.631]=-0.00695837839243379
+temp_var[2.64]=-0.24242558803106018
+var[2.64]=-0.24250318407871058
+rhs[2.64]=-0.006863652635787599
+temp_var[2.649]=-0.2449994398759518
+var[2.649]=-0.2450759857418372
+rhs[2.649]=-0.006770768472110351
+temp_var[2.658]=-0.24755586174790437
+var[2.658]=-0.24763137339299385
+rhs[2.658]=-0.00667928742006563
+temp_var[2.667]=-0.2500950301119398
+var[2.667]=-0.2501695254234938
+rhs[2.667]=-0.006589390948824672
+temp_var[2.676]=-0.252617119049546
+var[2.676]=-0.25269061590927827
+rhs[2.676]=-0.0065010801230968775
+temp_var[2.685]=-0.2551223002920654
+var[2.685]=-0.255194813507871
+rhs[2.685]=-0.006414069848125485
+temp_var[2.694]=-0.2576107433129434
+var[2.694]=-0.25768229170425694
+rhs[2.694]=-0.006328735774824463
+temp_var[2.703]=-0.26008261528141896
+var[2.703]=-0.26015321277658976
+rhs[2.703]=-0.006244623606071291
+temp_var[2.712]=-0.2625380811882635
+var[2.712]=-0.26260774456889047
+rhs[2.712]=-0.006162001164208459
+temp_var[2.721]=-0.2649773038206504
+var[2.721]=-0.2650460484191852
+rhs[2.721]=-0.006080734034236203
+temp_var[2.73]=-0.2674004438211318
+var[2.73]=-0.2674682843945916
+rhs[2.73]=-0.006000770730653653
+temp_var[2.739]=-0.26980765972778936
+var[2.739]=-0.26987461136437857
+rhs[2.739]=-0.005922142934897763
+temp_var[2.748]=-0.2721991079968308
+var[2.748]=-0.2722651855505881
+rhs[2.748]=-0.0058448307635037364
+temp_var[2.757]=-0.27457494303467433
+var[2.757]=-0.27464015972188976
+rhs[2.757]=-0.00576868315035043
+temp_var[2.766]=-0.27693531725728066
+var[2.766]=-0.27699968786506407
+rhs[2.766]=-0.0056938468747694815
+temp_var[2.775]=-0.27928038108808406
+var[2.775]=-0.2793439195733218
+rhs[2.775]=-0.005620246356488945
+temp_var[2.784]=-0.2816102830005764
+var[2.784]=-0.28167300145053514
+rhs[2.784]=-0.005547708559220229
+temp_var[2.793]=-0.2839251695802347
+var[2.793]=-0.283987083156492
+rhs[2.793]=-0.005476521643010367
+temp_var[2.802]=-0.28622518549029263
+var[2.802]=-0.28628630477225875
+rhs[2.802]=-0.005406259105570793
+temp_var[2.811]=-0.28851047358648885
+var[2.811]=-0.2885708134168223
+rhs[2.811]=-0.0053373199280580125
+temp_var[2.82]=-0.29078117485892324
+var[2.82]=-0.29084074617726285
+rhs[2.82]=-0.005269341083010418
+temp_var[2.829]=-0.293037428532399
+var[2.829]=-0.293096244051925
+rhs[2.829]=-0.005202489329016151
+temp_var[2.838]=-0.29527937205543753
+var[2.838]=-0.2953374442136993
+rhs[2.838]=-0.005136740055767834
+temp_var[2.847]=-0.29750714112899235
+var[2.847]=-0.2975644802810288
+rhs[2.847]=-0.005071900215705999
+temp_var[2.856]=-0.2997208697700824
+var[2.856]=-0.2997774890777279
+rhs[2.856]=-0.0050082320896512045
+temp_var[2.865]=-0.3019206902803329
+var[2.865]=-0.30197660006590255
+rhs[2.865]=-0.004945472471651274
+temp_var[2.874]=-0.30410673332264293
+var[2.874]=-0.3041619444790246
+rhs[2.874]=-0.004883675725512265
+temp_var[2.883]=-0.3062791279315525
+var[2.883]=-0.3063336522798775
+rhs[2.883]=-0.00482292883809777
+temp_var[2.892]=-0.3084380015172429
+var[2.892]=-0.30849184867683455
+rhs[2.892]=-0.004763027907469623
+temp_var[2.901]=-0.31058347992903684
+var[2.901]=-0.3106366609556909
+rhs[2.901]=-0.004704107553109528
+temp_var[2.91]=-0.31271568744835815
+var[2.91]=-0.31276821280949346
+rhs[2.91]=-0.004646113814797863
+temp_var[2.919]=-0.31483474682034107
+var[2.919]=-0.31488662586284216
+rhs[2.919]=-0.004588943486030429
+temp_var[2.928]=-0.3169407792950208
+var[2.928]=-0.3169920227092237
+rhs[2.928]=-0.004532722453571203
+temp_var[2.937]=-0.31903390462087455
+var[2.937]=-0.3190845216383881
+rhs[2.937]=-0.004477315741732016
+temp_var[2.946]=-0.3211142410925056
+var[2.946]=-0.3211642314619749
+rhs[2.946]=-0.004421774374748763
+temp_var[2.955]=-0.3231819055666442
+var[2.955]=-0.32323162420379165
+rhs[2.955]=-0.004401030365562578
+temp_var[2.964]=-0.3252370099868942
+var[2.964]=-0.3252813416264542
+rhs[2.964]=-0.0038851253423938218
+temp_var[2.973]=-0.3272797496838237
+var[2.973]=-0.32735923742212286
+rhs[2.973]=-0.007236152230534822
+temp_var[2.982]=-0.32930950838665435
+var[2.982]=-0.3292440603543786
+rhs[2.982]=0.00636242834523511
+temp_var[2.991]=-0.33132941204609007
+var[2.991]=-0.3315450841929977
+rhs[2.991]=-0.019674654214451293
+temp_var[3.]=-0.33333378265168595
+var[3.]=-0.33338253819707625
+rhs[3.]=-0.0044446375433751404
+dt=0.01
+temp_var[2.1]=-0.047516341322903353
+var[2.1]=-0.046494698923383794
+rhs[2.1]=0.10216423995195593
+temp_var[2.109]=-0.052150405108670174
+var[2.109]=-0.05705489070041927
+rhs[2.109]=-0.49044855917490726
+temp_var[2.118]=-0.05567404706777016
+var[2.118]=-0.05430949101332455
+rhs[2.118]=0.1364556054445616
+temp_var[2.127]=-0.05982685522238793
+var[2.127]=-0.06092094738834059
+rhs[2.127]=-0.10940921659526735
+temp_var[2.136]=-0.06376243835474718
+var[2.136]=-0.06433085811586223
+rhs[2.136]=-0.05684197611150269
+temp_var[2.145]=-0.06769144708505556
+var[2.145]=-0.06830992914505545
+rhs[2.145]=-0.06184820599998521
+temp_var[2.154]=-0.07158567396181247
+var[2.154]=-0.07219010337288474
+rhs[2.154]=-0.060442941107227775
+temp_var[2.163]=-0.07544757343001367
+var[2.163]=-0.0760420799401244
+rhs[2.163]=-0.05945065101107468
+temp_var[2.172]=-0.07927748598863356
+var[2.172]=-0.07986216526354394
+rhs[2.172]=-0.05846792749103913
+temp_var[2.181]=-0.0830758089635931
+var[2.181]=-0.08365087402983015
+rhs[2.181]=-0.057506506623709215
+temp_var[2.19]=-0.08684293008180555
+var[2.19]=-0.08740857169984963
+rhs[2.19]=-0.056564161804405204
+temp_var[2.199]=-0.090579232504341
+var[2.199]=-0.09113564176002487
+rhs[2.199]=-0.05564092556838155
+temp_var[2.208]=-0.09428509354854925
+var[2.208]=-0.09483246750839133
+rhs[2.208]=-0.05473739598420829
+temp_var[2.217]=-0.09796088165858802
+var[2.217]=-0.09849938741988554
+rhs[2.217]=-0.05385057612975574
+temp_var[2.226]=-0.10160696394832602
+var[2.226]=-0.10213679905865107
+rhs[2.226]=-0.05298351103249681
+temp_var[2.235]=-0.10522369616677259
+var[2.235]=-0.10574501758472771
+rhs[2.235]=-0.05213214179550821
+temp_var[2.244]=-0.10881143336350543
+var[2.244]=-0.1093244226674976
+rhs[2.244]=-0.051298930399219005
+temp_var[2.253]=-0.1123705216535232
+var[2.253]=-0.11287534267217125
+rhs[2.253]=-0.05048210186480306
+temp_var[2.262]=-0.11590130228117106
+var[2.262]=-0.11639810978750136
+rhs[2.262]=-0.049680750633023116
+temp_var[2.271]=-0.11940411310250754
+var[2.271]=-0.11989307763778662
+rhs[2.271]=-0.04889645352790572
+temp_var[2.28]=-0.12287928332131992
+var[2.28]=-0.12336055015462459
+rhs[2.28]=-0.04812668333046541
+temp_var[2.289]=-0.12632713952610783
+var[2.289]=-0.1268008611699309
+rhs[2.289]=-0.047372164382307756
+temp_var[2.298]=-0.12974800259538802
+var[2.298]=-0.13021432958192655
+rhs[2.298]=-0.046632698653852576
+temp_var[2.307]=-0.13314218773747058
+var[2.307]=-0.13360126289728466
+rhs[2.307]=-0.04590751598139778
+temp_var[2.316]=-0.13651000535172217
+var[2.316]=-0.13696196260586846
+rhs[2.316]=-0.04519572541462396
+temp_var[2.325]=-0.1398517630084356
+var[2.325]=-0.14029675360916852
+rhs[2.325]=-0.04449906007328869
+temp_var[2.334]=-0.14316775965877906
+var[2.334]=-0.14360590291624498
+rhs[2.334]=-0.04381432574659734
+temp_var[2.343]=-0.14645829383326395
+var[2.343]=-0.14688973042778122
+rhs[2.343]=-0.043143659451736295
+temp_var[2.352]=-0.14972365670866317
+var[2.352]=-0.15014851283166972
+rhs[2.352]=-0.04248561230065035
+temp_var[2.361]=-0.15296413547122834
+var[2.361]=-0.153382527861115
+rhs[2.361]=-0.0418392389886634
+temp_var[2.37]=-0.15618001552028477
+var[2.37]=-0.15659208587429388
+rhs[2.37]=-0.0412070354009125
+temp_var[2.379]=-0.1593715723904105
+var[2.379]=-0.15977741599040987
+rhs[2.379]=-0.04058435999993615
+temp_var[2.388]=-0.16253908421489188
+var[2.388]=-0.1629388357695916
+rhs[2.388]=-0.039975155469974405
+temp_var[2.397]=-0.16568281989983527
+var[2.397]=-0.16607658864959593
+rhs[2.397]=-0.03937687497607168
+temp_var[2.406]=-0.16880304588850792
+var[2.406]=-0.16919093733097698
+rhs[2.406]=-0.038789144246912044
+temp_var[2.415]=-0.17190002623729753
+var[2.415]=-0.1722821607063195
+rhs[2.415]=-0.03821344690220167
+temp_var[2.424]=-0.17497401792568398
+var[2.424]=-0.1753504906121102
+rhs[2.424]=-0.03764726864261606
+temp_var[2.433]=-0.17802527747052985
+var[2.433]=-0.17839620186783547
+rhs[2.433]=-0.03709243973056648
+temp_var[2.442]=-0.18105405494839039
+var[2.442]=-0.1814195276671494
+rhs[2.442]=-0.036547271875912085Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+temp_var[2.451]=-0.18406059842821276
+var[2.451]=-0.18442072247743033
+rhs[2.451]=-0.03601240492175758
+temp_var[2.46]=-0.18704515118427925
+var[2.46]=-0.187400017958059
+rhs[2.46]=-0.03548667737797223
+temp_var[2.469]=-0.19000795502101733
+var[2.469]=-0.19035767427260833
+rhs[2.469]=-0.034971925159105535
+temp_var[2.478]=-0.19294924400766852
+var[2.478]=-0.1932938878609771
+rhs[2.478]=-0.03446438533085349
+temp_var[2.487]=-0.1958692548248693
+var[2.487]=-0.19620893469156236
+rhs[2.487]=-0.0339679866693118
+temp_var[2.496]=-0.19876821513589132
+var[2.496]=-0.19910301018494297
+rhs[2.496]=-0.0334795049051592
+temp_var[2.505]=-0.20164635230625305
+var[2.505]=-0.20197634824716534
+rhs[2.505]=-0.03299959409122607
+temp_var[2.514]=-0.20450389087917095
+var[2.514]=-0.204829184928205
+rhs[2.514]=-0.03252940490340876
+temp_var[2.523]=-0.20734104880544058
+var[2.523]=-0.20766170550510998
+rhs[2.523]=-0.03206566996695545
+temp_var[2.532]=-0.21015804656898512
+var[2.532]=-0.2104741715388409
+rhs[2.532]=-0.03161249698557365
+temp_var[2.541]=-0.2129550947381774
+var[2.541]=-0.2132667463882961
+rhs[2.541]=-0.031165165011862218
+temp_var[2.55]=-0.21573240716477013
+var[2.55]=-0.216039677896086
+rhs[2.55]=-0.03072707313157748
+temp_var[2.559]=-0.21849019067362183
+var[2.559]=-0.21879315420687886
+rhs[2.559]=-0.030296353325707095
+temp_var[2.568]=-0.22122865016839052
+var[2.568]=-0.22152737514140453
+rhs[2.568]=-0.029872497301389547
+temp_var[2.577]=-0.22394798955193654
+var[2.577]=-0.22424256269001464
+rhs[2.577]=-0.029457313807801887
+temp_var[2.586]=-0.22664840623535715
+var[2.586]=-0.22693888589918518
+rhs[2.586]=-0.02904796638278611
+temp_var[2.595]=-0.22933009882645833
+var[2.595]=-0.2296165657334384
+rhs[2.595]=-0.028646690697997742
+temp_var[2.604]=-0.23199326025360656
+var[2.604]=-0.23227577871333432
+rhs[2.604]=-0.028251845972777658
+temp_var[2.613]=-0.2346380823240309
+var[2.613]=-0.23491672194166924
+rhs[2.613]=-0.02786396176383555
+temp_var[2.622]=-0.23726475348765977
+var[2.622]=-0.23753957724541466
+rhs[2.622]=-0.027482375775486123
+temp_var[2.631]=-0.2398734608252609
+var[2.631]=-0.24014454319411943
+rhs[2.631]=-0.02710823688584591
+temp_var[2.64]=-0.24246438605488602
+var[2.64]=-0.24273177538173776
+rhs[2.64]=-0.02673893268515847
+temp_var[2.649]=-0.2450377128088952
+var[2.649]=-0.2453014879569234
+rhs[2.649]=-0.026377514802818882
+temp_var[2.658]=-0.2475936175704497
+var[2.658]=-0.247853828066632
+rhs[2.658]=-0.026021049618244897
+temp_var[2.667]=-0.25013227776771724
+var[2.667]=-0.25038898679802124
+rhs[2.667]=-0.025670903030394886
+temp_var[2.676]=-0.25265386747941265
+var[2.676]=-0.2529071391663522
+rhs[2.676]=-0.025327168693956004
+temp_var[2.685]=-0.2551585568999688
+var[2.685]=-0.25540843642858485
+rhs[2.685]=-0.02498795286161339
+temp_var[2.694]=-0.2576465175086006
+var[2.694]=-0.25789307700505265
+rhs[2.694]=-0.02465594964520358
+temp_var[2.703]=-0.26011791402900497
+var[2.703]=-0.2603611951186982
+rhs[2.703]=-0.02432810896933259
+temp_var[2.712]=-0.26257291287857776
+var[2.712]=-0.26281297689492344
+rhs[2.712]=-0.024006401634552067
+temp_var[2.721]=-0.2650116761199185
+var[2.721]=-0.26524857515644473
+rhs[2.721]=-0.023689903652626923
+temp_var[2.73]=-0.26743436410786237
+var[2.73]=-0.2676681482574462
+rhs[2.73]=-0.023378414958364145
+temp_var[2.739]=-0.2698411355460844
+var[2.739]=-0.27007185723544785
+rhs[2.739]=-0.02307216893632094
+temp_var[2.748]=-0.2722321467737103
+var[2.748]=-0.27245985832400677
+rhs[2.748]=-0.022771155029636822
+temp_var[2.757]=-0.2746075513782828
+var[2.757]=-0.27483229568507234
+rhs[2.757]=-0.022474430678941535
+temp_var[2.766]=-0.27696750256117286
+var[2.766]=-0.27718933252024996
+rhs[2.766]=-0.02218299590769554
+temp_var[2.775]=-0.27931215033070333
+var[2.775]=-0.27953111487997634
+rhs[2.775]=-0.02189645492727826
+temp_var[2.784]=-0.28164164222555627
+var[2.784]=-0.2818577789336735
+rhs[2.784]=-0.021613670811719166
+temp_var[2.793]=-0.28395612636836404
+var[2.793]=-0.28416949375197426
+rhs[2.793]=-0.021336738361022865
+temp_var[2.802]=-0.28625574513127644
+var[2.802]=-0.2864663723692605
+rhs[2.802]=-0.02106272379839868
+temp_var[2.811]=-0.28854064350165604
+var[2.811]=-0.2887485884218412
+rhs[2.811]=-0.02079449201852324
+temp_var[2.82]=-0.29081096051809363
+var[2.82]=-0.29101625614793286
+rhs[2.82]=-0.020529562983921078
+temp_var[2.829]=-0.29306683629216246
+var[2.829]=-0.2932695280995063
+rhs[2.829]=-0.020269180734403796
+temp_var[2.838]=-0.2953084081345691
+var[2.838]=-0.29550854045154346
+rhs[2.838]=-0.020013231697426668
+temp_var[2.847]=-0.2975358107050112
+var[2.847]=-0.29773341518566093
+rhs[2.847]=-0.019760448064958924
+temp_var[2.856]=-0.29974917942390544
+var[2.856]=-0.2999443060375578
+rhs[2.856]=-0.019512661365219848
+temp_var[2.865]=-0.3019486451731184
+var[2.865]=-0.3021413266820604
+rhs[2.865]=-0.019268150894191323
+temp_var[2.874]=-0.30413433890083447
+var[2.874]=-0.30432461252904836
+rhs[2.874]=-0.019027362821367768
+temp_var[2.883]=-0.30630639010571586
+var[2.883]=-0.3064942991466701
+rhs[2.883]=-0.01879090409541147
+temp_var[2.892]=-0.30846492509703966
+var[2.892]=-0.3086504996975847
+rhs[2.892]=-0.018557460054513492
+temp_var[2.901]=-0.3106100704423644
+var[2.901]=-0.31079335034914896
+rhs[2.901]=-0.018327990678459034
+temp_var[2.91]=-0.3127419501289267
+var[2.91]=-0.3129229718342481
+rhs[2.91]=-0.018102170532145138
+temp_var[2.919]=-0.3148606863415924
+var[2.919]=-0.3150394800223596
+rhs[2.919]=-0.01787936807670889
+temp_var[2.928]=-0.316966401002123
+var[2.928]=-0.31714300578078297
+rhs[2.928]=-0.017660477866001334
+temp_var[2.937]=-0.31905921312963187
+var[2.937]=-0.31923366751946014
+rhs[2.937]=-0.017445438982821936
+temp_var[2.946]=-0.3211392362772412
+var[2.946]=-0.3213112354378564
+rhs[2.946]=-0.017199916061514532
+temp_var[2.955]=-0.32320676488521877
+var[2.955]=-0.32338238970998234
+rhs[2.955]=-0.017562482476369313
+temp_var[2.964]=-0.3252591758066751
+var[2.964]=-0.32537822273374495
+rhs[2.964]=-0.011904692706987859
+temp_var[2.973]=-0.32731949355297363
+var[2.973]=-0.32774251390272535
+rhs[2.973]=-0.04230203497515933
+temp_var[2.982]=-0.32927678437051716
+var[2.982]=-0.3287011312293035
+rhs[2.982]=0.05756531412137268
+temp_var[2.991]=-0.33143724811954484
+var[2.991]=-0.3325070382543404
+rhs[2.991]=-0.10697901347956588
+temp_var[3.]=-0.33335816042438216
+var[3.]=-0.33360449902921907
+rhs[3.]=-0.02463386048370348
+dt=0.01
+temp_var[2.1]=-0.047516341322903353
+var[2.1]=-0.03502503266417098
+rhs[2.1]=1.1469666259212854
+temp_var[2.109]=-0.052150405108670174
+var[2.109]=-0.11495148844241862
+rhs[2.109]=-5.789659774199917
+temp_var[2.118]=-0.05567404706777016
+var[2.118]=-0.029310097288846714
+rhs[2.118]=2.499939372447786
+temp_var[2.127]=-0.05982685522238793
+var[2.127]=-0.07427613865198494
+rhs[2.127]=-1.3355191263644266
+temp_var[2.136]=-0.06376243835474718
+var[2.136]=-0.06772569905784545
+rhs[2.136]=-0.3394840941983135
+temp_var[2.145]=-0.06769144708505556
+var[2.145]=-0.07315464269833527
+rhs[2.145]=-0.4844713553279739
+temp_var[2.154]=-0.07158567396181247
+var[2.154]=-0.07681339133613067
+rhs[2.154]=-0.4623287963245847
+temp_var[2.163]=-0.07544757343001367
+var[2.163]=-0.08059604377621435
+rhs[2.163]=-0.4553963836089861
+temp_var[2.172]=-0.07927748598863356
+var[2.172]=-0.0843406205843398
+rhs[2.172]=-0.44784553207958044
+temp_var[2.181]=-0.0830758089635931
+var[2.181]=-0.08805568706061882
+rhs[2.181]=-0.44048130307885425
+temp_var[2.19]=-0.08684293008180555
+var[2.19]=-0.0917411677869537
+rhs[2.19]=-0.43325960871040076
+temp_var[2.199]=-0.090579232504341
+var[2.199]=-0.09539747676591072
+rhs[2.199]=-0.42618350058857474
+temp_var[2.208]=-0.09428509354854925
+var[2.208]=-0.09902511251448848
+rhs[2.208]=-0.41926450060969855
+temp_var[2.217]=-0.09796088165858802
+var[2.217]=-0.10262402314477569
+rhs[2.217]=-0.4124635724890055
+temp_var[2.226]=-0.10160696394832602
+var[2.226]=-0.1061950585638832
+rhs[2.226]=-0.4058259505231975
+temp_var[2.235]=-0.10522369616677259
+var[2.235]=-0.10973799592573216
+rhs[2.235]=-0.39929783410043224
+temp_var[2.244]=-0.10881143336350543
+var[2.244]=-0.11325358256229039
+rhs[2.244]=-0.39291598947926354
+temp_var[2.253]=-0.1123705216535232
+var[2.253]=-0.11674192591487047
+rhs[2.253]=-0.3866583242699034
+temp_var[2.262]=-0.11590130228117106
+var[2.262]=-0.12020326175691186
+rhs[2.262]=-0.3805151969410393
+temp_var[2.271]=-0.11940411310250754
+var[2.271]=-0.12363817419602864
+rhs[2.271]=-0.3745096558241911Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+temp_var[2.28]=-0.12287928332131992
+var[2.28]=-0.12704665099691193
+rhs[2.28]=-0.3686100842287232
+temp_var[2.289]=-0.12632713952610783
+var[2.289]=-0.13042915105050557
+rhs[2.289]=-0.36282898805744773
+temp_var[2.298]=-0.12974800259538802
+var[2.298]=-0.13378597197423317
+rhs[2.298]=-0.35716423923064194
+temp_var[2.307]=-0.13314218773747058
+var[2.307]=-0.13711735501288966
+rhs[2.307]=-0.3516092115604856
+temp_var[2.316]=-0.13651000535172217
+var[2.316]=-0.14042348736542123
+rhs[2.316]=-0.346152475955269
+temp_var[2.325]=-0.1398517630084356
+var[2.325]=-0.1437049527192854
+rhs[2.325]=-0.3408199110116665
+temp_var[2.334]=-0.14316775965877906
+var[2.334]=-0.14696160221718294
+rhs[2.334]=-0.33556993009377734
+temp_var[2.343]=-0.14645829383326395
+var[2.343]=-0.15019406808136523
+rhs[2.343]=-0.3304337653583844
+temp_var[2.352]=-0.14972365670866317
+var[2.352]=-0.15340244797083868
+rhs[2.352]=-0.3253935139168809
+temp_var[2.361]=-0.15296413547122834
+var[2.361]=-0.15658689795515957
+rhs[2.361]=-0.32043700940443176
+temp_var[2.37]=-0.15618001552028477
+var[2.37]=-0.1597480960508382
+rhs[2.37]=-0.31560101765440496
+temp_var[2.379]=-0.1593715723904105
+var[2.379]=-0.1628856537554044
+rhs[2.379]=-0.3108237764994338
+temp_var[2.388]=-0.16253908421489188
+var[2.388]=-0.16600044171361875
+rhs[2.388]=-0.3061605944026993
+temp_var[2.397]=-0.16568281989983527
+var[2.397]=-0.16909236405653544
+rhs[2.397]=-0.3015775406939338
+temp_var[2.406]=-0.16880304588850792
+var[2.406]=-0.17216165985551918
+rhs[2.406]=-0.29707225245419416
+temp_var[2.415]=-0.17190002623729753
+var[2.415]=-0.17520881935458116
+rhs[2.415]=-0.2926658648261414
+temp_var[2.424]=-0.17497401792568398
+var[2.424]=-0.17823374266925734
+rhs[2.424]=-0.28832520571469356
+temp_var[2.433]=-0.17802527747052985
+var[2.433]=-0.18123697586145943
+rhs[2.433]=-0.2840773993623807
+temp_var[2.442]=-0.18105405494839039
+var[2.442]=-0.18421852524103624
+rhs[2.442]=-0.2798997573886646
+temp_var[2.451]=-0.18406059842821276
+var[2.451]=-0.1871787633666926
+rhs[2.451]=-0.2758040889262008
+temp_var[2.46]=-0.18704515118427925
+var[2.46]=-0.1901177524831333
+rhs[2.46]=-0.2717734525074222
+temp_var[2.469]=-0.19000795502101733
+var[2.469]=-0.1930360370825725
+rhs[2.469]=-0.26783628099639506
+temp_var[2.478]=-0.19294924400766852
+var[2.478]=-0.1959333035531748
+rhs[2.478]=-0.2639415692197407
+temp_var[2.487]=-0.1958692548248693
+var[2.487]=-0.1988103762737086
+rhs[2.487]=-0.26014415821459363
+temp_var[2.496]=-0.19876821513589132
+var[2.496]=-0.20166701990737046
+rhs[2.496]=-0.25640097224272657
+temp_var[2.505]=-0.20164635230625305
+var[2.505]=-0.20450357457801738
+rhs[2.505]=-0.25272263308519033
+temp_var[2.514]=-0.20450389087917095
+var[2.514]=-0.207320446668347
+rhs[2.514]=-0.2491261740141723
+temp_var[2.523]=-0.20734104880544058
+var[2.523]=-0.21011737435232464
+rhs[2.523]=-0.24556688472144125
+temp_var[2.532]=-0.21015804656898512
+var[2.532]=-0.2128952040199446
+rhs[2.532]=-0.24210324811034997
+temp_var[2.541]=-0.2129550947381774
+var[2.541]=-0.21565345491539972
+rhs[2.541]=-0.2386708527103374
+temp_var[2.55]=-0.21573240716477013
+var[2.55]=-0.21839285822105511
+rhs[2.55]=-0.23531803249689354
+temp_var[2.559]=-0.21849019067362183
+var[2.559]=-0.22111334876331457
+rhs[2.559]=-0.232019455643535
+temp_var[2.568]=-0.22122865016839052
+var[2.568]=-0.22381507120876973
+rhs[2.568]=-0.22876960673648497
+temp_var[2.577]=-0.22394798955193654
+var[2.577]=-0.22649850233063343
+rhs[2.577]=-0.22559396406185722
+temp_var[2.586]=-0.22664840623535715
+var[2.586]=-0.22916343178928988
+rhs[2.586]=-0.22245458901044066
+temp_var[2.595]=-0.22933009882645833
+var[2.595]=-0.23181040103782966
+rhs[2.595]=-0.21938353043909875
+temp_var[2.604]=-0.23199326025360656
+var[2.604]=-0.23443935998422022
+rhs[2.604]=-0.21635812708856006
+temp_var[2.613]=-0.2346380823240309
+var[2.613]=-0.23705060255606691
+rhs[2.613]=-0.2133880614397326
+temp_var[2.622]=-0.23726475348765977
+var[2.622]=-0.2396442094935836
+rhs[2.622]=-0.21046322481687219
+temp_var[2.631]=-0.2398734608252609
+var[2.631]=-0.24222056048864832
+rhs[2.631]=-0.20760172945285443
+temp_var[2.64]=-0.24246438605488602
+var[2.64]=-0.24477945378648105
+rhs[2.64]=-0.20476784047429095
+temp_var[2.649]=-0.2450377128088952
+var[2.649]=-0.2473215314355422
+rhs[2.649]=-0.20200434786184435
+temp_var[2.658]=-0.2475936175704497
+var[2.658]=-0.24984654459423478
+rhs[2.658]=-0.19927165276024358
+temp_var[2.667]=-0.25013227776771724
+var[2.667]=-0.2523548815640382
+rhs[2.667]=-0.19658947660167253
+temp_var[2.676]=-0.25265386747941265
+var[2.676]=-0.2548467367352897
+rhs[2.676]=-0.193959756893707
+temp_var[2.685]=-0.2551585568999688
+var[2.685]=-0.2573220065405784
+rhs[2.685]=-0.19135701119931706
+temp_var[2.694]=-0.2576465175086006
+var[2.694]=-0.2597812679557042
+rhs[2.694]=-0.18881909506513242
+temp_var[2.703]=-0.26011791402900497
+var[2.703]=-0.2622242422390488
+rhs[2.703]=-0.18630471203500418
+temp_var[2.712]=-0.26257291287857776
+var[2.712]=-0.26465139832169354
+rhs[2.712]=-0.1838421426769728
+temp_var[2.721]=-0.2650116761199185
+var[2.721]=-0.26706275794165846
+rhs[2.721]=-0.18141827852133607
+temp_var[2.73]=-0.26743436410786237
+var[2.73]=-0.2694584690491035
+rhs[2.73]=-0.17903207916570113
+temp_var[2.739]=-0.2698411355460844
+var[2.739]=-0.27183872169497203
+rhs[2.739]=-0.17668644595239105
+temp_var[2.748]=-0.2722321467737103
+var[2.748]=-0.2742036828616377
+rhs[2.748]=-0.17438245376306194
+temp_var[2.757]=-0.2746075513782828
+var[2.757]=-0.2765533766334507
+rhs[2.757]=-0.1721080948378
+temp_var[2.766]=-0.27696750256117286
+var[2.766]=-0.27888809829572186
+rhs[2.766]=-0.1698765775471662
+temp_var[2.775]=-0.27931215033070333
+var[2.775]=-0.28120795288558736
+rhs[2.775]=-0.16768380056107443
+temp_var[2.784]=-0.28164164222555627
+var[2.784]=-0.28351292302035513
+rhs[2.784]=-0.16551440866813397
+temp_var[2.793]=-0.28395612636836404
+var[2.793]=-0.28580347610734325
+rhs[2.793]=-0.16339823553686544
+temp_var[2.802]=-0.28625574513127644
+var[2.802]=-0.2880793198887309
+rhs[2.802]=-0.16129475194699752
+temp_var[2.811]=-0.28854064350165604
+var[2.811]=-0.2903410331687186
+rhs[2.811]=-0.15924447468771974
+temp_var[2.82]=-0.29081096051809363
+var[2.82]=-0.292588389150884
+rhs[2.82]=-0.15721330029509348
+temp_var[2.829]=-0.29306683629216246
+var[2.829]=-0.29482172021926606
+rhs[2.829]=-0.15521921197596278
+temp_var[2.838]=-0.2953084081345691
+var[2.838]=-0.2970411506291864
+rhs[2.838]=-0.1532610177642584
+temp_var[2.847]=-0.2975358107050112
+var[2.847]=-0.2992466342317315
+rhs[2.847]=-0.15132190460701458
+temp_var[2.856]=-0.29974917942390544
+var[2.856]=-0.30143857594119283
+rhs[2.856]=-0.14942699036347562
+temp_var[2.865]=-0.3019486451731184
+var[2.865]=-0.3036168623690505
+rhs[2.865]=-0.14755356869896796
+temp_var[2.874]=-0.30413433890083447
+var[2.874]=-0.30578169638987085
+rhs[2.874]=-0.1457083860822136
+temp_var[2.883]=-0.30630639010571586
+var[2.883]=-0.30793329494328303
+rhs[2.883]=-0.1438995796612522
+temp_var[2.892]=-0.30846492509703966
+var[2.892]=-0.31007160041647114
+rhs[2.892]=-0.14211007188860955
+temp_var[2.901]=-0.3106100704423644
+var[2.901]=-0.3121968819100108
+rhs[2.901]=-0.14035315608615595
+temp_var[2.91]=-0.3127419501289267
+var[2.91]=-0.3143092188756357
+rhs[2.91]=-0.1386247041387093
+temp_var[2.919]=-0.3148606863415924
+var[2.919]=-0.3164086482836535
+rhs[2.919]=-0.13691682612936193
+temp_var[2.928]=-0.316966401002123
+var[2.928]=-0.31849541084285987
+rhs[2.928]=-0.1352405062076661
+temp_var[2.937]=-0.31905921312963187
+var[2.937]=-0.3205701797539304
+rhs[2.937]=-0.13365122344698446
+temp_var[2.946]=-0.3211392362772412
+var[2.946]=-0.32261815602828275
+rhs[2.946]=-0.13069205904259712
+temp_var[2.955]=-0.32320676488521877
+var[2.955]=-0.32482939283771545
+rhs[2.955]=-0.144700312773273
+temp_var[2.964]=-0.3252591758066751
+var[2.964]=-0.3256805534439505
+rhs[2.964]=-0.030233071020501247
+temp_var[2.973]=-0.32731949355297363
+var[2.973]=-0.3331687848786931
+rhs[2.973]=-0.5426270975967419
+temp_var[2.982]=-0.32927678437051716
+var[2.982]=-0.3198784255062913
+rhs[2.982]=0.8822705723012684
+temp_var[2.991]=-0.33143724811954484
+var[2.991]=-0.3444044466141034
+rhs[2.991]=-1.1897408359762531
+temp_var[3.]=-0.33335816042438216
+var[3.]=-0.33636602782108876
+rhs[3.]=-0.2761528791869194
+dt=0.01
+temp_var[2.1]=-0.041270686993537246
+var[2.1]=0.025664967190699006
+rhs[2.1]=6.693565418423612
+temp_var[2.109]=-0.08355094677554459
+var[2.109]=-0.4346509947299093
+rhs[2.109]=-35.11000479543644
+temp_var[2.118]=-0.04249207217830853
+var[2.118]=0.15498474788496516
+rhs[2.118]=19.747682006327352
+temp_var[2.127]=-0.06705149693718661
+var[2.127]=-0.15901749245274605
+rhs[2.127]=-9.196599551555932
+temp_var[2.136]=-0.06574406870629648
+var[2.136]=-0.06952564965387348
+rhs[2.136]=-0.3781580947577019
+temp_var[2.145]=-0.07042304489169564
+var[2.145]=-0.0906837168610261
+rhs[2.145]=-2.0260671969330453
+temp_var[2.154]=-0.07419953264897168
+var[2.154]=-0.09208515033516128
+rhs[2.154]=-1.7885617686189612
+temp_var[2.163]=-0.07802180860311418
+var[2.163]=-0.09576842703864907
+rhs[2.163]=-1.7746618435534829
+temp_var[2.172]=-0.08180905328648684
+var[2.172]=-0.09925443970481164
+rhs[2.172]=-1.744538641832476
+temp_var[2.181]=-0.08556574801210617
+var[2.181]=-0.102724251087244
+rhs[2.181]=-1.7158503075137772
+temp_var[2.19]=-0.08929204893437975
+var[2.19]=-0.10616884866713623
+rhs[2.19]=-1.6876799732756484
+temp_var[2.199]=-0.09298835463512607
+var[2.199]=-0.10958906870608184
+rhs[2.199]=-1.6600714070955742
+temp_var[2.208]=-0.09665510303151911
+var[2.208]=-0.11298628541531233
+rhs[2.208]=-1.6331182383793197
+temp_var[2.217]=-0.1002924524016821
+var[2.217]=-0.11635802217177704
+rhs[2.217]=-1.6065569770094985
+temp_var[2.226]=-0.10390101125610482
+var[2.226]=-0.11970816216729578
+rhs[2.226]=-1.5807150911190964
+temp_var[2.235]=-0.1074808460462525
+var[2.235]=-0.12303311105298347
+rhs[2.235]=-1.5552265006730914
+temp_var[2.244]=-0.11103250796289817
+var[2.244]=-0.126336083787753
+rhs[2.244]=-1.5303575824854831
+temp_var[2.253]=-0.11455622378419708
+var[2.253]=-0.12961585851700944
+rhs[2.253]=-1.5059634732812315
+temp_var[2.262]=-0.11805228201904172
+var[2.262]=-0.1328721804056715
+rhs[2.262]=-1.4819898386629717
+temp_var[2.271]=-0.1215211436492683
+var[2.271]=-0.13610712810744807
+rhs[2.271]=-1.4585984458179793
+temp_var[2.28]=-0.12496296715911626
+var[2.28]=-0.13931881300544854
+rhs[2.28]=-1.4355845846332227
+temp_var[2.289]=-0.12837814528830704
+var[2.289]=-0.14250860048481456
+rhs[2.289]=-1.413045519650746
+temp_var[2.298]=-0.13176698728481087
+var[2.298]=-0.14567663048975646
+rhs[2.298]=-1.3909643204945517
+temp_var[2.307]=-0.13512977137518042
+var[2.307]=-0.14882292772806258
+rhs[2.307]=-1.3693156352882165
+temp_var[2.316]=-0.1384667463585719
+var[2.316]=-0.1519469457847785
+rhs[2.316]=-1.3480199426206632
+temp_var[2.325]=-0.14177835786386084
+var[2.325]=-0.15505100426025056
+rhs[2.325]=-1.3272646396389622
+temp_var[2.334]=-0.14506468093798136
+var[2.334]=-0.15813239906472265
+rhs[2.334]=-1.3067718126741312
+temp_var[2.343]=-0.148326180957315
+var[2.343]=-0.1611938181463302
+rhs[2.343]=-1.2867637189015224
+temp_var[2.352]=-0.15156305233975106
+var[2.352]=-0.16423430681272363
+rhs[2.352]=-1.267125447297249
+temp_var[2.361]=-0.15477551671319442
+var[2.361]=-0.16725325395474194
+rhs[2.361]=-1.2477737241547424
+temp_var[2.37]=-0.15796405578556183
+var[2.37]=-0.17025379126105522
+rhs[2.37]=-1.228973547549343
+temp_var[2.379]=-0.16112861307290788
+var[2.379]=-0.17323167692561725
+rhs[2.379]=-1.2103063852709377
+temp_var[2.388]=-0.16426976296425558
+var[2.388]=-0.17619134122732624
+rhs[2.388]=-1.1921578263070747
+temp_var[2.397]=-0.16738759197818573
+var[2.397]=-0.1791305526229938
+rhs[2.397]=-1.1742960644808047
+temp_var[2.406]=-0.1704823528720139
+var[2.406]=-0.1820495373449746
+rhs[2.406]=-1.1567184472960723
+temp_var[2.415]=-0.17355442279593972
+var[2.415]=-0.18495013828457246
+rhs[2.415]=-1.1395715488632825
+temp_var[2.424]=-0.17660388029747118
+var[2.424]=-0.1878301953580705
+rhs[2.424]=-1.1226315060599361
+temp_var[2.433]=-0.17963112666599496
+var[2.433]=-0.1906920754701923
+rhs[2.433]=-1.1060948804197301
+temp_var[2.442]=-0.18263629009471372
+var[2.442]=-0.19353432545731752
+rhs[2.442]=-1.0898035362603864
+temp_var[2.451]=-0.18561968089745315
+var[2.451]=-0.19635824037178612
+rhs[2.451]=-1.0738559474332965
+temp_var[2.46]=-0.1885814518337066
+var[2.46]=-0.19916269721989824
+rhs[2.46]=-1.0581245386191636
+temp_var[2.469]=-0.1915219960517954
+var[2.469]=-0.20195022988333047
+rhs[2.469]=-1.0428233831535023
+temp_var[2.478]=-0.1944412737804221
+var[2.478]=-0.20471728065136496
+rhs[2.478]=-1.0276006870942807
+temp_var[2.487]=-0.19733981554928945
+var[2.487]=-0.20746819800783775
+rhs[2.487]=-1.0128382458548209
+temp_var[2.496]=-0.20021761752163136
+var[2.496]=-0.2102000495188446
+rhs[2.496]=-0.9982431997213284
+temp_var[2.505]=-0.20307496344213546
+var[2.505]=-0.21291392113960747
+rhs[2.505]=-0.983895769747202
+temp_var[2.514]=-0.20591216877375954
+var[2.514]=-0.21561135619339009
+rhs[2.514]=-0.9699187419630445
+temp_var[2.523]=-0.20872921157888313
+var[2.523]=-0.2182892279370957
+rhs[2.523]=-0.9560016358212519
+temp_var[2.532]=-0.2115266252944655
+var[2.532]=-0.22095221469212595
+rhs[2.532]=-0.9425589397660559
+temp_var[2.541]=-0.2143042748267892
+var[2.541]=-0.22359572734664662
+rhs[2.541]=-0.9291452519857405
+temp_var[2.55]=-0.21706263269291307
+var[2.55]=-0.22622365865060165
+rhs[2.55]=-0.9161025957688528
+temp_var[2.559]=-0.21980176971846885
+var[2.559]=-0.22883432243768148
+rhs[2.559]=-0.9032552719212614
+temp_var[2.568]=-0.2225218606885807
+var[2.568]=-0.23142758477817715
+rhs[2.568]=-0.8905724089596415
+temp_var[2.577]=-0.22522324594128554
+var[2.577]=-0.23400555876173482
+rhs[2.577]=-0.8782312820449174
+temp_var[2.586]=-0.22790591901232396
+var[2.586]=-0.23656565800946006
+rhs[2.586]=-0.8659738997136143
+temp_var[2.595]=-0.23057024993214445
+var[2.595]=-0.2391105309807194
+rhs[2.595]=-0.8540281048574907
+temp_var[2.604]=-0.23321631011891386
+var[2.604]=-0.24163864616926276
+rhs[2.604]=-0.8422336050348783
+temp_var[2.613]=-0.23584434244004956
+var[2.613]=-0.2441510561630692
+rhs[2.613]=-0.8306713723019561
+temp_var[2.622]=-0.23845448149062204
+var[2.622]=-0.2466471028448416
+rhs[2.622]=-0.8192621354219658
+temp_var[2.631]=-0.2410470106569553
+var[2.631]=-0.2491284543212047
+rhs[2.631]=-0.8081443664249356
+temp_var[2.64]=-0.24362191992068422
+var[2.64]=-0.2515926150902085
+rhs[2.64]=-0.797069516952432
+temp_var[2.649]=-0.24617962212221942
+var[2.649]=-0.2540429925489365
+rhs[2.649]=-0.7863370426717153
+temp_var[2.658]=-0.24872008108234303
+var[2.658]=-0.2564768395574802
+rhs[2.658]=-0.7756758475137204
+temp_var[2.667]=-0.2512435796658781
+var[2.667]=-0.25889584164141916
+rhs[2.667]=-0.7652261975541066
+temp_var[2.676]=-0.2537503021073517
+var[2.676]=-0.26130033966409416
+rhs[2.676]=-0.7550037556742337
+temp_var[2.685]=-0.2562402817202742
+var[2.685]=-0.2636886243810125
+rhs[2.685]=-0.7448342660738237
+temp_var[2.694]=-0.25871389273215284
+var[2.694]=-0.26606372038979687
+rhs[2.694]=-0.7349827657644092
+temp_var[2.703]=-0.26117107813402757
+var[2.703]=-0.26842273491066937
+rhs[2.703]=-0.7251656776641803
+temp_var[2.712]=-0.26361215560013634
+var[2.712]=-0.27076800291268643
+rhs[2.712]=-0.7155847312550015
+temp_var[2.721]=-0.2660372170307893
+var[2.721]=-0.27309866386795073
+rhs[2.721]=-0.7061446837161443
+temp_var[2.73]=-0.2684464165784837
+var[2.73]=-0.2754148995611947
+rhs[2.73]=-0.6968482982711025
+temp_var[2.739]=-0.2708399286205288
+var[2.739]=-0.2777170437137389
+rhs[2.739]=-0.687711509321026
+temp_var[2.748]=-0.2732179148176749
+var[2.748]=-0.28000539313948425
+rhs[2.748]=-0.6787478321809378
+temp_var[2.757]=-0.2755804640058674
+var[2.757]=-0.28227925346527805
+rhs[2.757]=-0.6698789459410596
+temp_var[2.766]=-0.2779278004284478
+var[2.766]=-0.2845397128726705
+rhs[2.766]=-0.6611912444222751
+temp_var[2.775]=-0.28026005160814577
+var[2.775]=-0.2867866909241364
+rhs[2.775]=-0.6526639315990612
+temp_var[2.784]=-0.2825772826229562
+var[2.784]=-0.2890191868230506
+rhs[2.784]=-0.6441904200094501
+temp_var[2.793]=-0.28487980123785445
+var[2.793]=-0.29123962559213856
+rhs[2.793]=-0.6359824354284142
+temp_var[2.802]=-0.2871675325100045
+var[2.802]=-0.2934451030604423
+rhs[2.802]=-0.6277570550437792
+temp_var[2.811]=-0.28944083833518786
+var[2.811]=-0.2956388441681674
+rhs[2.811]=-0.619800583297935
+temp_var[2.82]=-0.2916996748344895
+var[2.82]=-0.29781843133834174
+rhs[2.82]=-0.6118756503852223
+temp_var[2.829]=-0.29394427825571495
+var[2.829]=-0.29998538844068207
+rhs[2.829]=-0.6041110184967117
+temp_var[2.838]=-0.2961747793818784
+var[2.838]=-0.302139771495226
+rhs[2.838]=-0.5964992113347725
+temp_var[2.847]=-0.2983912224683722
+var[2.847]=-0.3042804942222828
+rhs[2.847]=-0.588927175391045
+temp_var[2.856]=-0.3005938776825496
+var[2.856]=-0.3064095458622521Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+rhs[2.856]=-0.5815668179702504
+temp_var[2.865]=-0.30278275377108543
+var[2.865]=-0.30852541352239554
+rhs[2.865]=-0.5742659751310043
+temp_var[2.874]=-0.3049580176453534
+var[2.874]=-0.3106287574445877
+rhs[2.874]=-0.5670739799234303
+temp_var[2.883]=-0.3071198425245002
+var[2.883]=-0.31272028836294086
+rhs[2.883]=-0.5600445838440602
+temp_var[2.892]=-0.30926826275675595
+var[2.892]=-0.3147989159712176
+rhs[2.892]=-0.5530653214461574
+temp_var[2.901]=-0.311403476176188
+var[2.901]=-0.316865750657692
+rhs[2.901]=-0.5462274481504044
+temp_var[2.91]=-0.313525584502282
+var[2.91]=-0.31892062036414254
+rhs[2.91]=-0.5395035861860457
+temp_var[2.919]=-0.3156346673126237
+var[2.919]=-0.32096311083493895
+rhs[2.919]=-0.5328443522315054
+temp_var[2.928]=-0.3177309059224923
+var[2.928]=-0.3229936078298378
+rhs[2.928]=-0.526270190734558
+temp_var[2.937]=-0.31981469644178157
+var[2.937]=-0.325027901656424
+rhs[2.937]=-0.5213205214642338
+temp_var[2.946]=-0.3218786961527627
+var[2.946]=-0.3268201700958313
+rhs[2.946]=-0.49414739430686744
+temp_var[2.955]=-0.32401807886146794
+var[2.955]=-0.3307417359329782
+rhs[2.955]=-0.6723657071510292
+temp_var[2.964]=-0.32546986462531363
+var[2.964]=-0.321376222932844
+rhs[2.964]=0.409364169246955
+temp_var[2.973]=-0.3302441392158338
+var[2.973]=-0.3674687628358736
+rhs[2.973]=-3.722462362003957
+temp_var[2.982]=-0.324577604938405
+var[2.982]=-0.2613376589497669
+rhs[2.982]=6.323994598863805
+temp_var[2.991]=-0.33792084736682515
+var[2.991]=-0.40659290083479027
+rhs[2.991]=-6.867205346796506
+temp_var[3.]=-0.33486209412273654
+var[3.]=-0.3509632438667753
+rhs[3.]=-1.6101149744038796
+dt=0.01
+temp_var[2.1]=-0.041270686993537246
+var[2.1]=0.8184507960324048
+rhs[2.1]=79.27858288417042
+temp_var[2.109]=-0.08355094677554459
+var[2.109]=-4.734436974365273
+rhs[2.109]=-429.97859796353595
+temp_var[2.118]=-0.04249207217830853
+var[2.118]=3.064691509204808
+rhs[2.118]=290.970676131984
+temp_var[2.127]=-0.06705149693718661
+var[2.127]=-1.4928666015713392
+rhs[2.127]=-133.38491091185912
+temp_var[2.136]=-0.06574406870629648
+var[2.136]=0.07591807098402044
+rhs[2.136]=14.544372063789382
+temp_var[2.145]=-0.07042304489169564
+var[2.145]=-0.2773318370210725
+rhs[2.145]=-18.664812016004614
+temp_var[2.154]=-0.07419953264897168
+var[2.154]=-0.22538654240662115
+rhs[2.154]=-13.330139207145976
+temp_var[2.163]=-0.07802180860311418
+var[2.163]=-0.2319988172500243
+rhs[2.163]=-13.623039021137494
+temp_var[2.172]=-0.08180905328648684
+var[2.172]=-0.23287985633884062
+rhs[2.172]=-13.362541663402887
+temp_var[2.181]=-0.08556574801210617
+var[2.181]=-0.23416432740855325
+rhs[2.181]=-13.144007632130904
+temp_var[2.19]=-0.08929204893437975
+var[2.19]=-0.23544740014507112
+rhs[2.19]=-12.927855147793473
+temp_var[2.199]=-0.09298835463512607
+var[2.199]=-0.23674842559778617
+rhs[2.199]=-12.71593568917041
+temp_var[2.208]=-0.09665510303151911
+var[2.208]=-0.23808273672522323
+rhs[2.208]=-12.509645130991082
+temp_var[2.217]=-0.1002924524016821
+var[2.217]=-0.23941186264199066
+rhs[2.217]=-12.305384047021342
+temp_var[2.226]=-0.10390101125610482
+var[2.226]=-0.24078616986494436
+rhs[2.226]=-12.107800769764834
+temp_var[2.235]=-0.1074808460462525
+var[2.235]=-0.2421519316020631
+rhs[2.235]=-11.911882054907938
+temp_var[2.244]=-0.11103250796289817
+var[2.244]=-0.24355013872815626
+rhs[2.244]=-11.72140549404031
+temp_var[2.253]=-0.11455622378419708
+var[2.253]=-0.24496011772796566
+rhs[2.253]=-11.534425921095593
+temp_var[2.262]=-0.11805228201904172
+var[2.262]=-0.24637535532893004
+rhs[2.262]=-11.350317492325827
+temp_var[2.271]=-0.1215211436492683
+var[2.271]=-0.24782002069527115
+rhs[2.271]=-11.171289258782286
+temp_var[2.28]=-0.12496296715911626
+var[2.28]=-0.24926539715155727
+rhs[2.28]=-10.994658414610846
+temp_var[2.289]=-0.12837814528830704
+var[2.289]=-0.25072725157282855
+rhs[2.289]=-10.821865108801365
+temp_var[2.298]=-0.13176698728481087
+var[2.298]=-0.252202632123236
+rhs[2.298]=-10.652600163347927
+temp_var[2.307]=-0.13512977137518042
+var[2.307]=-0.25369040761111467
+rhs[2.307]=-10.486747988305183
+temp_var[2.316]=-0.1384667463585719
+var[2.316]=-0.25517856253711774
+rhs[2.316]=-10.323161675233901
+temp_var[2.325]=-0.14177835786386084
+var[2.325]=-0.2566959908729451
+rhs[2.325]=-10.164498661269427
+temp_var[2.334]=-0.14506468093798136
+var[2.334]=-0.2582025976619015
+rhs[2.334]=-10.007019859717863
+temp_var[2.343]=-0.148326180957315
+var[2.343]=-0.2597320382452192
+rhs[2.343]=-9.853822009888873
+temp_var[2.352]=-0.15156305233975106
+var[2.352]=-0.26126842944629225
+rhs[2.352]=-9.703412263356846
+temp_var[2.361]=-0.15477551671319442
+var[2.361]=-0.2627994810858737
+rhs[2.361]=-9.554622713113142
+temp_var[2.37]=-0.15796405578556183
+var[2.37]=-0.2643658223084361
+rhs[2.37]=-9.411203104738057
+temp_var[2.379]=-0.16112861307290788
+var[2.379]=-0.26590636567603515
+rhs[2.379]=-9.26746887504176
+temp_var[2.388]=-0.16426976296425558
+var[2.388]=-0.26747875019207074
+rhs[2.388]=-9.128740896474433
+temp_var[2.397]=-0.16738759197818573
+var[2.397]=-0.26904889317141717
+rhs[2.397]=-8.99183405484232
+temp_var[2.406]=-0.1704823528720139
+var[2.406]=-0.2706181341716404
+rhs[2.406]=-8.856859682666549
+temp_var[2.415]=-0.17355442279593972
+var[2.415]=-0.2722082100556873
+rhs[2.415]=-8.725807177111447
+temp_var[2.424]=-0.17660388029747118
+var[2.424]=-0.27378662643401624
+rhs[2.424]=-8.595643107594537
+temp_var[2.433]=-0.17963112666599496
+var[2.433]=-0.27538373157321905
+rhs[2.433]=-8.469165610302651
+temp_var[2.442]=-0.18263629009471372
+var[2.442]=-0.2769757459095987
+rhs[2.442]=-8.3441420452281
+temp_var[2.451]=-0.18561968089745315
+var[2.451]=-0.27857958863061405
+rhs[2.451]=-8.222134825882767
+temp_var[2.46]=-0.1885814518337066
+var[2.46]=-0.2801748589271577
+rhs[2.46]=-8.101216170725923
+temp_var[2.469]=-0.1915219960517954
+var[2.469]=-0.2817956425645717
+rhs[2.469]=-7.984541268124083
+temp_var[2.478]=-0.1944412737804221
+var[2.478]=-0.28338976331187743
+rhs[2.478]=-7.867248266051216
+temp_var[2.487]=-0.19733981554928945
+var[2.487]=-0.2850142800327601
+rhs[2.487]=-7.754608202492199
+temp_var[2.496]=-0.20021761752163136
+var[2.496]=-0.28662638054406175
+rhs[2.496]=-7.642633102521687
+temp_var[2.505]=-0.20307496344213546
+var[2.505]=-0.2882387778391754
+rhs[2.505]=-7.532485669956774
+temp_var[2.514]=-0.20591216877375954
+var[2.514]=-0.2898703737052945
+rhs[2.514]=-7.425901751190416
+temp_var[2.523]=-0.20872921157888313
+var[2.523]=-0.2914749388807278
+rhs[2.523]=-7.318571094363176
+temp_var[2.532]=-0.2115266252944655
+var[2.532]=-0.29311531689992465
+rhs[2.532]=-7.216310220779823
+temp_var[2.541]=-0.2143042748267892
+var[2.541]=-0.29472535443722836
+rhs[2.541]=-7.112962709058133
+temp_var[2.55]=-0.21706263269291307
+var[2.55]=-0.2963568740736905
+rhs[2.55]=-7.013321542308853
+temp_var[2.559]=-0.21980176971846885
+var[2.559]=-0.29798371160945614
+rhs[2.559]=-6.91493891717743
+temp_var[2.568]=-0.2225218606885807
+var[2.568]=-0.299602290978075
+rhs[2.568]=-6.817470619989761
+temp_var[2.577]=-0.22522324594128554
+var[2.577]=-0.30123904200090534
+rhs[2.577]=-6.723348323917015
+temp_var[2.586]=-0.22790591901232396
+var[2.586]=-0.30285625311897185
+rhs[2.586]=-6.629059510951151
+temp_var[2.595]=-0.23057024993214445
+var[2.595]=-0.30448860298127706
+rhs[2.595]=-6.53780720005573
+temp_var[2.604]=-0.23321631011891386
+var[2.604]=-0.3061117697134923
+rhs[2.604]=-6.447312354422922
+temp_var[2.613]=-0.23584434244004956
+var[2.613]=-0.30773972768635
+rhs[2.613]=-6.358867152328039
+temp_var[2.622]=-0.23845448149062204
+var[2.622]=-0.3093594196899475
+rhs[2.622]=-6.271231684510577
+temp_var[2.631]=-0.2410470106569553
+var[2.631]=-0.3109932151024195
+rhs[2.631]=-6.186476078121438
+temp_var[2.64]=-0.24362191992068422
+var[2.64]=-0.31260399290582336
+rhs[2.64]=-6.101137781561443
+temp_var[2.649]=-0.24617962212221942
+var[2.649]=-0.31423672949399684
+rhs[2.649]=-6.019373694505989
+temp_var[2.658]=-0.24872008108234303
+var[2.658]=-0.31585156809799875
+rhs[2.658]=-5.937472854051825
+temp_var[2.667]=-0.2512435796658781
+var[2.667]=-0.31746984414652124
+rhs[2.667]=-5.857400250510183
+temp_var[2.676]=-0.2537503021073517
+var[2.676]=-0.31909420534428135
+rhs[2.676]=-5.779386568018687
+temp_var[2.685]=-0.2562402817202742
+var[2.685]=-0.32069910262179857
+rhs[2.685]=-5.701047824078585
+temp_var[2.694]=-0.25871389273215284
+var[2.694]=-0.32232432079378304
+rhs[2.694]=-5.6260600403985945
+temp_var[2.703]=-0.26117107813402757Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+*** Warning: Degree of exact solution may be inadequate for accurate result in errornorm.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+Solving linear variational problem.
+
+var[2.703]=-0.32392801941954513
+rhs[2.703]=-5.55052845088753
+temp_var[2.712]=-0.26361215560013634
+var[2.712]=-0.32554102182323275
+rhs[2.712]=-5.477301891054584
+temp_var[2.721]=-0.2660372170307893
+var[2.721]=-0.32714858154239085
+rhs[2.721]=-5.404991767443977
+temp_var[2.73]=-0.2684464165784837
+var[2.73]=-0.32875251852603854
+rhs[2.73]=-5.333761896484345
+temp_var[2.739]=-0.2708399286205288
+var[2.739]=-0.33035463631042955
+rhs[2.739]=-5.263759259669034
+temp_var[2.748]=-0.2732179148176749
+var[2.748]=-0.3319577553488213
+rhs[2.748]=-5.195236220933652
+temp_var[2.757]=-0.2755804640058674
+var[2.757]=-0.33355091860801694
+rhs[2.757]=-5.127166514273846
+temp_var[2.766]=-0.2779278004284478
+var[2.766]=-0.33514634318530234
+rhs[2.766]=-5.06066303126317
+temp_var[2.775]=-0.28026005160814577
+var[2.775]=-0.336742022150988
+rhs[2.775]=-4.995533122685131
+temp_var[2.784]=-0.2825772826229562
+var[2.784]=-0.33832203224071494
+rhs[2.784]=-4.93028454176639
+temp_var[2.793]=-0.28487980123785445
+var[2.793]=-0.3399185804439392
+rhs[2.793]=-4.867895485180036
+temp_var[2.802]=-0.2871675325100045
+var[2.802]=-0.34148935539919656
+rhs[2.802]=-4.8044252338753815
+temp_var[2.811]=-0.28944083833518786
+var[2.811]=-0.3430777214816229
+rhs[2.811]=-4.743887731345524
+temp_var[2.82]=-0.2916996748344895
+var[2.82]=-0.34464826142483196
+rhs[2.82]=-4.682983008648988
+temp_var[2.829]=-0.29394427825571495
+var[2.829]=-0.346220718210651
+rhs[2.829]=-4.623532976996886
+temp_var[2.838]=-0.2961747793818784
+var[2.838]=-0.3477940772274792
+rhs[2.838]=-4.565430573225275
+temp_var[2.847]=-0.2983912224683722
+var[2.847]=-0.34935207755040587
+rhs[2.847]=-4.507158332812265
+temp_var[2.856]=-0.3005938776825496
+var[2.856]=-0.3509200237064597
+rhs[2.856]=-4.451047784420725
+temp_var[2.865]=-0.30278275377108543
+var[2.865]=-0.3524759982513421
+rhs[2.865]=-4.395058472894607
+temp_var[2.874]=-0.3049580176453534
+var[2.874]=-0.35402770888324825
+rhs[2.874]=-4.339895143866001
+temp_var[2.883]=-0.3071198425245002
+var[2.883]=-0.3555828415530463
+rhs[2.883]=-4.286255319010503
+temp_var[2.892]=-0.30926826275675595
+var[2.892]=-0.3571255165639156
+rhs[2.892]=-4.23266005926974
+temp_var[2.901]=-0.311403476176188
+var[2.901]=-0.3586692112538696
+rhs[2.901]=-4.180346059617725
+temp_var[2.91]=-0.313525584502282
+var[2.91]=-0.3602100430605482
+rhs[2.91]=-4.128942269640524
+temp_var[2.919]=-0.3156346673126237
+var[2.919]=-0.3617423105445819
+rhs[2.919]=-4.077919970964249
+temp_var[2.928]=-0.3177309059224923
+var[2.928]=-0.3632426870385343
+rhs[2.928]=-4.024907920869602
+temp_var[2.937]=-0.31981469644178157
+var[2.937]=-0.3653153341166434
+rhs[2.937]=-4.028743246021922
+temp_var[2.946]=-0.3218786961527627
+var[2.946]=-0.36105230174752156
+rhs[2.946]=-3.4232131651689834
+temp_var[2.955]=-0.32401807886146794
+var[2.955]=-0.40389704091029544
+rhs[2.955]=-7.315530497731681
+temp_var[2.964]=-0.32546986462531363
+var[2.964]=-0.2017586305784603
+rhs[2.964]=11.961759235438395
+temp_var[2.973]=-0.3302441392158338
+var[2.973]=-0.8897810583856529
+rhs[2.973]=-52.23122955497788
+temp_var[2.982]=-0.324577604938405
+var[2.982]=0.6104667960007523
+rhs[2.982]=87.18044549505186
+temp_var[2.991]=-0.33792084736682515
+var[2.991]=-1.2131517733133805
+rhs[2.991]=-80.65588724785891
+temp_var[3.]=-0.33486209412273654
+var[3.]=-0.5415174570409185
+rhs[3.]=-19.05542131741424

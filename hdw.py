@@ -1,3 +1,7 @@
+"""
+help functions
+"""
+
 from dolfin import *
 from global_def import *
 def project_functions(func_forms, func_list):
@@ -5,7 +9,10 @@ def project_functions(func_forms, func_list):
         func_space = func_list[idx].function_space() 
         u = TrialFunction(func_space)
         v = TestFunction(func_space)
-        F = u*v*dx - func_forms[idx]*v*dx
+        u_form = func_forms[idx]
+        if u_form == 0:
+            u_form = Constant(0) 
+        F = u*v*dx - u_form*v*dx
         a, L = lhs(F), rhs(F)
         solve(a == L, func_list[idx])
 
@@ -13,7 +20,7 @@ def get_invg_forms(var_list):
     g00, g01, g11 = var_list[:3]
     invg_forms = []
     invg_forms.append(g11/(g00*g11-g01*g01))
-    invg_forms.append(g01/(g00*g11-g01*g01))
+    invg_forms.append(-g01/(g00*g11-g01*g01))
     invg_forms.append(g00/(g00*g11-g01*g01))
 
     tuple(invg_forms)
@@ -21,7 +28,7 @@ def get_invg_forms(var_list):
 
 def get_auxi_forms(var_list, invg_list):
     lapse = 1./pow(-invg_list[0], 0.5)
-    shift = -invg_list[1]/invg_list[2]
+    shift = -invg_list[1]/invg_list[0]
     gamma11 =  1/var_list[2] 
     normal0 = 1/lapse
     normal1 = -shift/lapse
@@ -52,12 +59,12 @@ def get_gamma_forms(var_list, invg_list, auxi_list, r):
     invg00, invg01, invg11 = invg_list[:]
     lapse, shift, normal0, normal1, gamma11 = auxi_list[:]
 
-    gamma000 = gamma11*0.5*(2*g01*Phi00) - 0.5*gamma11*g01*Phi00 + lapse*Pi00 - 1/2*lapse*Pi00
+    gamma000 = gamma11*0.5*(2*g01*Phi00) - 0.5*gamma11*g01*Phi00 - lapse*Pi00 + 1/2*lapse*Pi00
     gamma001 = gamma11*0.5*(g01*Phi01+g11*Phi00) - gamma11*1/2*g01*Phi01
-    gamma011 = gamma11*0.5*(2*g11*Phi01) - gamma11*g01*Phi11 + 0.5*lapse*Pi11
+    gamma011 = gamma11*0.5*(2*g11*Phi01) - 0.5*gamma11*g01*Phi11 + 0.5*lapse*Pi11
 
-    gamma100 = gamma11*0.5*(2*g01*Phi01) - 0.5*Phi00 + lapse*Pi01
-    gamma101 = gamma11*0.5*(g01*Phi11 + g11*Phi01) - 0.5*Phi01 + 0.5*lapse*Pi11
+    gamma100 = gamma11*0.5*(2*g01*Phi01) - 0.5*Phi00 - lapse*Pi01
+    gamma101 = gamma11*0.5*(g01*Phi11 + g11*Phi01) - 0.5*Phi01 - 0.5*lapse*Pi11
     gamma111 = gamma11*0.5*(2*g11*Phi11) - 0.5*Phi11
 
     gamma0 = invg00*gamma000 + 2*invg01*gamma001 + invg11*gamma011 \
@@ -66,6 +73,11 @@ def get_gamma_forms(var_list, invg_list, auxi_list, r):
             - 2/r*(gamma11*g11*(r*Phi_S+1))
 
     return (gamma000, gamma001, gamma011, gamma100, gamma101, gamma111, gamma0, gamma1)
+
+def get_C_forms(H_list, gamma_list):
+    H0, H1 = H_list[:]
+    gamma0, gamma1 = gamma_list[6:]
+    return (H0+gamma0, H1+gamma1)
     
 def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list, H_list, deriH_list, r):
     g00, g01, g11 = var_list[:3]
@@ -97,19 +109,19 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list,
             + invg11*(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma001*gamma001 \
             - invg01*2*gamma001*gamma011-invg11*gamma011*gamma011)) \
             #term 1
-            - 0.5*lapse*Pi00*(normal0*normal0*Pi00+normal0*normal1*2*Pi01+normal1*normal1*Pi11) \
+            - 0.5*lapse*Pi00*(normal0*normal0*Pi00+2*normal0*normal1*Pi01+normal1*normal1*Pi11) \
             #term 2
             - lapse*gamma11*Phi00*(normal0*Pi01+normal1*Pi11) \
             #term 3
-            + 2*lapse*(deriH00 + invg00*gamma000*(paragamma4*C0-H0) + invg01*gamma000*(paragamma4*C1-H1) \
+            - 2*lapse*(deriH00 + invg00*gamma000*(paragamma4*C0-H0) + invg01*gamma000*(paragamma4*C1-H1) \
             + invg01*gamma100*(paragamma4*C0-H0) + invg11*gamma100*(paragamma4*C1-H1) \
-            - 0.5*paragamma5*g00*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) \
+            - 0.5*paragamma5*g00*(invg00*gamma0*C0+invg01*(gamma0*C1+gamma1*C0)+invg11*gamma1*C1)) \
             #term 4
             + lapse*paragamma0*((-2*lapse-g00*normal0)*C0+(-g00*normal1)*C1)  \
             #term 5
             - paragamma1*paragamma2*shift*Phi00 \
             #term 6
-            - 4*lapse/r/r*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
+            - 4*lapse/pow(r,2)*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
             -lapse*(r*Pi_S-normal1)) \
             #term 7
             + 16*pi*lapse*(T00-0.5*T_scalar*g00))
@@ -127,10 +139,10 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list,
             #term 2
             - lapse*gamma11*Phi01*(normal0*Pi01+normal1*Pi11)  \
             #term 3
-            + 2*lapse*(0.5*(deriH01+deriH10)+invg00*gamma001*(paragamma4*C0-H0) \
+            - 2*lapse*(0.5*(deriH01+deriH10)+invg00*gamma001*(paragamma4*C0-H0) \
             + invg01*gamma001*(paragamma4*C1-H1) \
             + invg01*gamma101*(paragamma4*C0-H0) + invg11*gamma101*(paragamma4*C1-H1) \
-            - 0.5*paragamma5*g01*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) \
+            - 0.5*paragamma5*g01*(invg00*gamma0*C0+invg01*(gamma0*C1+gamma1*C0)+invg11*gamma1*C1)) \
             #term 4
             + lapse*paragamma0*((-g01*normal0)*C0+(-lapse-g01*normal1)*C1) \
             #term 5
@@ -153,9 +165,9 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list,
             #term 2
             - lapse*gamma11*Phi11*(normal0*Pi01+normal1*Pi11) \
             #term 3
-            + 2*lapse*(deriH11 + invg00*gamma011*(paragamma4*C0-H0) + invg01*gamma011*(paragamma4*C1-H1) \
+            - 2*lapse*(deriH11 + invg00*gamma011*(paragamma4*C0-H0) + invg01*gamma011*(paragamma4*C1-H1) \
             + invg01*gamma111*(paragamma4*C0-H0) + invg11*gamma111*(paragamma4*C1-H1) \
-            - 0.5*paragamma5*g11*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1)) \
+            - 0.5*paragamma5*g11*(invg00*gamma0*C0+invg01*(gamma0*C1+gamma1*C0)+invg11*gamma1*C1)) \
             #term 4
             + lapse*paragamma0*((-g11*normal0)*C0+(-g11*normal1)*C1) \
             #term 5
@@ -177,7 +189,7 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list,
 
     #source terms for S
     src_S = -lapse*Pi_S - paragamma1*shift*Phi_S
-    src_Pi_S = (-lapse*gamma11*(normal0*Pi01 + normal1*Pi11) - 0.5*lapse*Pi_S*(normal0*normal0*Pi00 \
+    src_Pi_S = (-lapse*Phi_S*gamma11*(normal0*Pi01 + normal1*Pi11) - 0.5*lapse*Pi_S*(normal0*normal0*Pi00 \
             + 2*normal0*normal1*Pi01 + normal1*normal1*Pi11) - paragamma1*paragamma2*shift*Phi_S \
             #row 1
             - 2*lapse/r/r*invg00*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
@@ -209,12 +221,15 @@ def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list,
             src_S, src_Pi_S, src_Phi_S, 
             src_psi, src_Pi_psi, src_Phi_psi)
 
-def get_Hhat_forms(var_list, avg_deri_list, dif_deri_list, auxi_list):
+def get_Hhat_forms(var_list, deri_list, auxi_list):
     g00, g01, g11 = var_list[:3]
     Pi00, Pi01, Pi11 = var_list[3:6]
     Phi00, Phi01, Phi11 = var_list[6:9]
     S, Pi_S, Phi_S = var_list[9:12]
     psi, Pi_psi, Phi_psi = var_list[12:15]
+   
+    avg_deri_list = [0.5*(deri[0]+deri[1]) for deri in deri_list] 
+    dif_deri_list = [0.5*(deri[0]-deri[1]) for deri in deri_list] 
 
     avg_deri_g00, avg_deri_g01, avg_deri_g11 = avg_deri_list[:3]
     avg_deri_Pi00, avg_deri_Pi01, avg_deri_Pi11 = avg_deri_list[3:6]
@@ -222,27 +237,42 @@ def get_Hhat_forms(var_list, avg_deri_list, dif_deri_list, auxi_list):
     avg_deri_S, avg_deri_Pi_S, avg_deri_Phi_S = avg_deri_list[9:12]
     avg_deri_psi, avg_deri_Pi_psi, avg_deri_Phi_psi = avg_deri_list[12:15]
 
+    dif_deri_g00, dif_deri_g01, dif_deri_g11 = dif_deri_list[:3]
+    dif_deri_Pi00, dif_deri_Pi01, dif_deri_Pi11 = dif_deri_list[3:6]
+    dif_deri_Phi00, dif_deri_Phi01, dif_deri_Phi11 = dif_deri_list[6:9]
+    dif_deri_S, dif_deri_Pi_S, dif_deri_Phi_S = dif_deri_list[9:12]
+    dif_deri_psi, dif_deri_Pi_psi, dif_deri_Phi_psi = dif_deri_list[12:15]
+
     lapse, shift, normal0, normal1, gamma11 = auxi_list[:]
 
-    Hhat_g00 = -(1+paragamma1)*shift*avg_deri_g00
-    Hhat_g01 = -(1+paragamma1)*shift*avg_deri_g01
-    Hhat_g11 = -(1+paragamma1)*shift*avg_deri_g11
+    Hhat_g00 = -(1+paragamma1)*shift*avg_deri_g00 - dif_deri_g00
+    Hhat_g01 = -(1+paragamma1)*shift*avg_deri_g01 - dif_deri_g01
+    Hhat_g11 = -(1+paragamma1)*shift*avg_deri_g11 - dif_deri_g11
 
-    Hhat_Pi00 = -paragamma1*paragamma2*shift*avg_deri_g00 - shift*avg_deri_Pi00 + lapse*gamma11*avg_deri_Phi00
-    Hhat_Pi01 = -paragamma1*paragamma2*shift*avg_deri_g01 - shift*avg_deri_Pi01 + lapse*gamma11*avg_deri_Phi01
-    Hhat_Pi11 = -paragamma1*paragamma2*shift*avg_deri_g11 - shift*avg_deri_Pi11 + lapse*gamma11*avg_deri_Phi11
+    Hhat_Pi00 = -paragamma1*paragamma2*shift*avg_deri_g00 - shift*avg_deri_Pi00 \
+            + lapse*gamma11*avg_deri_Phi00 - dif_deri_Pi00
+    Hhat_Pi01 = -paragamma1*paragamma2*shift*avg_deri_g01 - shift*avg_deri_Pi01 \
+            + lapse*gamma11*avg_deri_Phi01 - dif_deri_Pi01
+    Hhat_Pi11 = -paragamma1*paragamma2*shift*avg_deri_g11 - shift*avg_deri_Pi11 \
+            + lapse*gamma11*avg_deri_Phi11 - dif_deri_Pi11
 
-    Hhat_Phi00 = -paragamma2*lapse*avg_deri_g00 + lapse*avg_deri_Pi00 - shift*avg_deri_Phi00
-    Hhat_Phi01 = -paragamma2*lapse*avg_deri_g01 + lapse*avg_deri_Pi01 - shift*avg_deri_Phi01
-    Hhat_Phi11 = -paragamma2*lapse*avg_deri_g11 + lapse*avg_deri_Pi11 - shift*avg_deri_Phi11
+    Hhat_Phi00 = -paragamma2*lapse*avg_deri_g00 + lapse*avg_deri_Pi00 - shift*avg_deri_Phi00 \
+            - dif_deri_Phi00
+    Hhat_Phi01 = -paragamma2*lapse*avg_deri_g01 + lapse*avg_deri_Pi01 - shift*avg_deri_Phi01 \
+            - dif_deri_Phi01
+    Hhat_Phi11 = -paragamma2*lapse*avg_deri_g11 + lapse*avg_deri_Pi11 - shift*avg_deri_Phi11 \
+            - dif_deri_Phi11
 
-    Hhat_S = -(1+paragamma1)*shift*avg_deri_S
-    Hhat_Pi_S = -paragamma1*paragamma2*shift*avg_deri_S - shift*avg_deri_Pi_S + lapse*gamma11*avg_deri_Phi_S
-    Hhat_Phi_S = -paragamma2*lapse*avg_deri_S + lapse*avg_deri_Pi_S - shift*avg_deri_Phi_S
+    Hhat_S = -(1+paragamma1)*shift*avg_deri_S - dif_deri_S
+    Hhat_Pi_S = -paragamma1*paragamma2*shift*avg_deri_S - shift*avg_deri_Pi_S + lapse*gamma11*avg_deri_Phi_S\
+            - dif_deri_Pi_S
+    Hhat_Phi_S = -paragamma2*lapse*avg_deri_S + lapse*avg_deri_Pi_S - shift*avg_deri_Phi_S - dif_deri_Phi_S
 
-    Hhat_psi = -(1+paragamma1)*shift*avg_deri_psi
-    Hhat_Pi_psi = -paragamma1*paragamma2*shift*avg_deri_psi - shift*avg_deri_Pi_psi + lapse*gamma11*avg_deri_Phi_psi
-    Hhat_Phi_psi = -paragamma2*lapse*avg_deri_psi + lapse*avg_deri_Pi_psi - shift*avg_deri_Phi_psi
+    Hhat_psi = -(1+paragamma1)*shift*avg_deri_psi - dif_deri_psi
+    Hhat_Pi_psi = -paragamma1*paragamma2*shift*avg_deri_psi - shift*avg_deri_Pi_psi \
+            + lapse*gamma11*avg_deri_Phi_psi - dif_deri_Pi_psi
+    Hhat_Phi_psi = -paragamma2*lapse*avg_deri_psi + lapse*avg_deri_Pi_psi - shift*avg_deri_Phi_psi \
+            - dif_deri_Phi_psi
 
     return (Hhat_g00, Hhat_g01, Hhat_g11,
             Hhat_Pi00, Hhat_Pi01, Hhat_Pi11,
@@ -250,10 +280,10 @@ def get_Hhat_forms(var_list, avg_deri_list, dif_deri_list, auxi_list):
             Hhat_S, Hhat_Pi_S, Hhat_Phi_S, 
             Hhat_psi, Hhat_Pi_psi, Hhat_Phi_psi)
 
-def get_rhs_list(Hhat_list, src_list):
+def get_rhs_forms(Hhat_list, src_list):
     return tuple([src_list[idx]-Hhat_list[idx] for idx in range(len(src_list))])
 
-def get_deri(p_solution, u, i, mark):
+def get_deri(u_deri, u, u_boundary, i, mark):
     func_space = u.function_space() 
     mesh = func_space.mesh()
     p = TrialFunction(func_space)
@@ -261,12 +291,58 @@ def get_deri(p_solution, u, i, mark):
     n = FacetNormal(mesh)
 
     term_cell = p*v*dx + u*v.dx(i)*dx
-    if mark == '+':
-        term_facet = - n("+")[i]*avg(u)*jump(v)*dS - n[i]*u*v*ds - 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
-    elif mark == '-':
-        term_facet = - n("+")[i]*avg(u)*jump(v)*dS - n[i]*u*v*ds + 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
-    
-    F = term_cell + term_facet
-    a, L = lhs(F), rhs(F)
-    solve(a == L, p_solution)
 
+    if mark == '+':
+        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS + 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
+        term_boundary = - (0.5*(u_boundary + u)*n[i] + 0.5*(u_boundary - u)*abs(n[i]))*v*ds
+    elif mark == '-':
+        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS - 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
+        term_boundary = - (0.5*(u_boundary + u)*n[i] - 0.5*(u_boundary - u)*abs(n[i]))*v*ds
+    
+    F = term_cell + term_inner_facet + term_boundary
+    a, L = lhs(F), rhs(F)
+    solve(a == L, u_deri)
+
+
+def get_test_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list, H_list, deriH_list, r):
+    g00, g01, g11 = var_list[:3]
+    Pi00, Pi01, Pi11 = var_list[3:6]
+    Phi00, Phi01, Phi11 = var_list[6:9]
+    S, Pi_S, Phi_S = var_list[9:12]
+    psi, Pi_psi, Phi_psi = var_list[12:15]
+
+    invg00, invg01, invg11 = invg_list[:]
+    gamma000, gamma001, gamma011, gamma100, gamma101, gamma111, gamma0, gamma1 = gamma_list[:]
+    lapse, shift, normal0, normal1, gamma11 = auxi_list[:]
+    T00, T01, T11, T_scalar = T_list[:]
+    C0, C1 = C_list[:]
+    H0, H1 = H_list[:]
+    deriH00, deriH01, deriH10, deriH11 = deriH_list[:]
+
+    t1 = 2*lapse*(invg00*(gamma11*Phi00*Phi00-Pi00*Pi00-invg00*gamma000*gamma000 \
+            -2*invg01*gamma000*gamma001 - invg11*gamma001*gamma001) \
+            + invg01*(gamma11*Phi00*Phi01-Pi00*Pi01-invg00*gamma000*gamma001 \
+            - invg01*(gamma000*gamma011+gamma001*gamma001)-invg11*gamma001*gamma011) \
+            + invg01*(gamma11*Phi00*Phi01-Pi00*Pi01-invg00*gamma001*gamma000 \
+            - invg01*(gamma001*gamma001+gamma011*gamma000)-invg11*gamma011*gamma001) \
+            + invg11*(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma001*gamma001 \
+            - invg01*2*gamma001*gamma011-invg11*gamma011*gamma011)) 
+            #term 1
+    t2 = - 0.5*lapse*Pi00*(normal0*normal0*Pi00+2*normal0*normal1*Pi01+normal1*normal1*Pi11)
+            #term 2
+    t3 = - lapse*gamma11*Phi00*(normal0*Pi01+normal1*Pi11) 
+            #term 3
+    t4 = - 2*lapse*(deriH00 + invg00*gamma000*(paragamma4*C0-H0) + invg01*gamma000*(paragamma4*C1-H1) \
+            + invg01*gamma100*(paragamma4*C0-H0) + invg11*gamma100*(paragamma4*C1-H1) \
+            - 0.5*paragamma5*g00*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1))
+            #term 4
+    t5 = lapse*paragamma0*((-2*lapse-g00*normal0)*C0+(-g00*normal1)*C1)
+            #term 5
+    t6 = - paragamma1*paragamma2*shift*Phi00 
+            #term 6
+    t7 = - 4*lapse/pow(r,2)*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
+            -lapse*(r*Pi_S-normal1))
+            #term 7
+    t8 = 16*pi*lapse*(T00-0.5*T_scalar*g00)
+
+    return (t1, t2, t3, t4, t5, t6, t7, t8)
