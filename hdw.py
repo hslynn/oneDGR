@@ -1,20 +1,35 @@
 """
 help functions
 """
-
+import numpy as np
 from dolfin import *
 from global_def import *
+
+def get_deri(u_deri, u, bdry_values, i, mark):
+    func_space = u.function_space() 
+    mesh = func_space.mesh()
+    p = TrialFunction(func_space)
+    v = TestFunction(func_space)
+    n = FacetNormal(mesh)
+
+    term_cell = p*v*dx + u*v.dx(i)*dx
+
+    left_bdry, right_bdry = [Constant(value) for value in bdry_values] 
+    if mark == '+':
+        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS + 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
+        term_boundary = -(0.5*(right_bdry + u)*n[i] + 0.5*(right_bdry - u)*abs(n[i]))*v*ds
+    elif mark == '-':
+        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS - 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
+        term_boundary = -(0.5*(left_bdry + u)*n[i] - 0.5*(left_bdry - u)*abs(n[i]))*v*ds
+        
+    F = term_cell + term_inner_facet + term_boundary
+    a, L = lhs(F), rhs(F)
+    solve(a == L, u_deri)
+
+
 def project_functions(func_forms, func_list):
-    for idx in range(len(func_forms)):
-        func_space = func_list[idx].function_space() 
-        u = TrialFunction(func_space)
-        v = TestFunction(func_space)
-        u_form = func_forms[idx]
-        if u_form == 0:
-            u_form = Constant(0) 
-        F = u*v*dx - u_form*v*dx
-        a, L = lhs(F), rhs(F)
-        solve(a == L, func_list[idx])
+   for idx in range(len(func_forms)):
+       project(func_forms[idx], func_list[idx].function_space(), function=func_list[idx])
 
 def get_invg_forms(var_list):
     g00, g01, g11 = var_list[:3]
@@ -33,6 +48,24 @@ def get_auxi_forms(var_list, invg_list):
     normal0 = 1/lapse
     normal1 = -shift/lapse
     return (lapse, shift, normal0, normal1, gamma11)
+
+def find_AH(var_list, auxi_list, left_bdry, right_bdry, step_len):
+    g11 = var_list[2]
+    lapse = auxi_list[0]
+    shift = auxi_list[1] 
+    AH_indicator_left = 1/g11(left_bdry)**0.5 - shift(left_bdry)/lapse(left_bdry) 
+    for coord in np.arange(left_bdry + step_len, right_bdry, step_len):
+        AH_indicator = 1/g11(coord)**0.5 - shift(coord)/lapse(coord) 
+        if AH_indicator*AH_indicator_left < 0:
+            return (coord - step_len, coord)
+        elif AH_indicator*AH_indicator_left == 0:
+            return (coord, coord)
+        else:
+            AH_indicator_left = AH_indicator
+
+    return "no apparent horizon has been found between " + str((left_bdry, right_bdry)) 
+
+
 
 def get_T_forms(var_list, invg_list, auxi_list):
     g00, g01, g11 = var_list[:3]
@@ -79,7 +112,7 @@ def get_C_forms(H_list, gamma_list):
     gamma0, gamma1 = gamma_list[6:]
     return (H0+gamma0, H1+gamma1)
     
-def get_source_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list, H_list, deriH_list, r):
+def get_source_forms(var_list, invg_list, auxi_list, gamma_list, T_list, C_list, H_list, deriH_list, r):
     g00, g01, g11 = var_list[:3]
     Pi00, Pi01, Pi11 = var_list[3:6]
     Phi00, Phi01, Phi11 = var_list[6:9]
@@ -280,69 +313,5 @@ def get_Hhat_forms(var_list, deri_list, auxi_list):
             Hhat_S, Hhat_Pi_S, Hhat_Phi_S, 
             Hhat_psi, Hhat_Pi_psi, Hhat_Phi_psi)
 
-def get_rhs_forms(Hhat_list, src_list):
-    return tuple([src_list[idx]-Hhat_list[idx] for idx in range(len(src_list))])
-
-def get_deri(u_deri, u, u_boundary, i, mark):
-    func_space = u.function_space() 
-    mesh = func_space.mesh()
-    p = TrialFunction(func_space)
-    v = TestFunction(func_space)
-    n = FacetNormal(mesh)
-
-    term_cell = p*v*dx + u*v.dx(i)*dx
-
-    if mark == '+':
-        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS + 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
-        term_boundary = - (0.5*(u_boundary + u)*n[i] + 0.5*(u_boundary - u)*abs(n[i]))*v*ds
-    elif mark == '-':
-        term_inner_facet = - n("+")[i]*avg(u)*jump(v)*dS - 0.5*abs(n("+")[i])*jump(u)*jump(v)*dS
-        term_boundary = - (0.5*(u_boundary + u)*n[i] - 0.5*(u_boundary - u)*abs(n[i]))*v*ds
-    
-    F = term_cell + term_inner_facet + term_boundary
-    a, L = lhs(F), rhs(F)
-    solve(a == L, u_deri)
-
-
-def get_test_forms(var_list, invg_list, gamma_list, auxi_list, T_list, C_list, H_list, deriH_list, r):
-    g00, g01, g11 = var_list[:3]
-    Pi00, Pi01, Pi11 = var_list[3:6]
-    Phi00, Phi01, Phi11 = var_list[6:9]
-    S, Pi_S, Phi_S = var_list[9:12]
-    psi, Pi_psi, Phi_psi = var_list[12:15]
-
-    invg00, invg01, invg11 = invg_list[:]
-    gamma000, gamma001, gamma011, gamma100, gamma101, gamma111, gamma0, gamma1 = gamma_list[:]
-    lapse, shift, normal0, normal1, gamma11 = auxi_list[:]
-    T00, T01, T11, T_scalar = T_list[:]
-    C0, C1 = C_list[:]
-    H0, H1 = H_list[:]
-    deriH00, deriH01, deriH10, deriH11 = deriH_list[:]
-
-    t1 = 2*lapse*(invg00*(gamma11*Phi00*Phi00-Pi00*Pi00-invg00*gamma000*gamma000 \
-            -2*invg01*gamma000*gamma001 - invg11*gamma001*gamma001) \
-            + invg01*(gamma11*Phi00*Phi01-Pi00*Pi01-invg00*gamma000*gamma001 \
-            - invg01*(gamma000*gamma011+gamma001*gamma001)-invg11*gamma001*gamma011) \
-            + invg01*(gamma11*Phi00*Phi01-Pi00*Pi01-invg00*gamma001*gamma000 \
-            - invg01*(gamma001*gamma001+gamma011*gamma000)-invg11*gamma011*gamma001) \
-            + invg11*(gamma11*Phi01*Phi01-Pi01*Pi01-invg00*gamma001*gamma001 \
-            - invg01*2*gamma001*gamma011-invg11*gamma011*gamma011)) 
-            #term 1
-    t2 = - 0.5*lapse*Pi00*(normal0*normal0*Pi00+2*normal0*normal1*Pi01+normal1*normal1*Pi11)
-            #term 2
-    t3 = - lapse*gamma11*Phi00*(normal0*Pi01+normal1*Pi11) 
-            #term 3
-    t4 = - 2*lapse*(deriH00 + invg00*gamma000*(paragamma4*C0-H0) + invg01*gamma000*(paragamma4*C1-H1) \
-            + invg01*gamma100*(paragamma4*C0-H0) + invg11*gamma100*(paragamma4*C1-H1) \
-            - 0.5*paragamma5*g00*(invg00*gamma0*gamma0+2*invg01*gamma0*gamma1+invg11*gamma1*gamma1))
-            #term 4
-    t5 = lapse*paragamma0*((-2*lapse-g00*normal0)*C0+(-g00*normal1)*C1)
-            #term 5
-    t6 = - paragamma1*paragamma2*shift*Phi00 
-            #term 6
-    t7 = - 4*lapse/pow(r,2)*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
-            -lapse*(r*Pi_S-normal1))
-            #term 7
-    t8 = 16*pi*lapse*(T00-0.5*T_scalar*g00)
-
-    return (t1, t2, t3, t4, t5, t6, t7, t8)
+def get_rhs_forms(Hhat_forms, src_forms):
+    return tuple([src_forms[idx]-Hhat_forms[idx] for idx in range(len(src_forms))])

@@ -1,15 +1,15 @@
 from __future__ import print_function
 from dolfin import *
 import matplotlib.pyplot as plt
+import rk
 import sys
 import getopt
 import time
 
 from hdw import *
-import rk
 import bdry
 import sch_kerr_schild_ingoing as sks
-import sch_PG as spg
+import minkovski as mkv
 import mesh_generate as mg
 import ioo
 
@@ -19,7 +19,8 @@ def main():
     """
     main computating process
     """
-    N = 15
+
+    N = 9
     DG_degree = 1
     inner_bdry = 0.5
     mesh_len = 1.0 
@@ -50,15 +51,14 @@ def main():
             refine_time = int(arg)
         if opt == "-f":
             folder = str(arg)
-
+    
     #create .sh for rerun purpose
     with open(folder+'run.sh', 'w') as f:
         f.write('#!/bin/bash\n')
-        f.write('cd ~/projects/oneDGR/\n')
-        f.write('python3 oneDGR_main.py ')
+        f.write('cd ~/projects/oneDGR_noPsinoS/\n')
+        f.write('python3 oneDGR_noPsinoS_main.py ')
         f.write('-m %d -d %d -i %f -l %f -h %f -x %f -o %f -r %d -f %s'
                 %(mg_func, DG_degree, inner_bdry, mesh_len, hmin, hmax, mg_order, refine_time, folder))
-
 
     #create mesh and define function space
     mesh = mg.get_mesh(inner_bdry, mesh_len, hmin, hmax, mg_func, mg_order)
@@ -92,7 +92,7 @@ def main():
     dt = hmin/(2*DG_degree + 1)
     func_space = FunctionSpace(mesh, "DG", DG_degree)
     func_space_accurate = FunctionSpace(mesh, "DG", DG_degree + 5)
-    
+
     #coordinate function
     r = SpatialCoordinate(mesh)[0]
 
@@ -107,13 +107,6 @@ def main():
     var_list[6].rename('Phi00', 'Phi00')
     var_list[7].rename('Phi01', 'Phi01')
     var_list[8].rename('Phi11', 'Phi11')
-    var_list[9].rename('S', 'S')
-    var_list[10].rename('Pi_S', 'Pi_S')
-    var_list[11].rename('Phi_S', 'Phi_S')
-    var_list[12].rename('psi', 'psi')
-    var_list[13].rename('Pi_psi', 'Pi_psi')
-    var_list[14].rename('Phi_psi', 'Phi_psi')
-
 
     deri_list = [[Function(func_space), Function(func_space)] for dummy in range(len(var_list))]
     H_list = sks.get_H_list(func_space)
@@ -122,7 +115,6 @@ def main():
     invg_list = [Function(func_space) for dummy in range(3)]
     auxi_list = [Function(func_space) for dummy in range(5)]
     gamma_list = [Function(func_space) for dummy in range(8)]
-    T_list = [Function(func_space) for dummy in range(4)]
     C_list = [Function(func_space) for dummy in range(2)]
 
     rhs_list = [Function(func_space) for dummy in range(N)]
@@ -131,24 +123,25 @@ def main():
     invg_forms = get_invg_forms(var_list)
     auxi_forms = get_auxi_forms(var_list, invg_list) 
     gamma_forms = get_gamma_forms(var_list, invg_list, auxi_list, r)
-    T_forms = get_T_forms(var_list, invg_list, auxi_list)
     C_forms = get_C_forms(H_list, gamma_list)
 
-    src_forms = get_source_forms(var_list, invg_list, auxi_list, gamma_list, T_list, C_list, H_list, deriH_list, r)
+    src_forms = get_source_forms(var_list, invg_list, auxi_list, gamma_list, C_list, H_list, deriH_list, r)
     Hhat_forms = get_Hhat_forms(var_list, deri_list, auxi_list)
     rhs_forms = get_rhs_forms(Hhat_forms, src_forms)
     
     #pack forms and functions
-    form_packs = (invg_forms, auxi_forms, gamma_forms, T_forms, C_forms, rhs_forms) 
-    func_packs = (invg_list, auxi_list, gamma_list, T_list, C_list, rhs_list)
+    form_packs = (invg_forms, auxi_forms, gamma_forms, C_forms, rhs_forms) 
+    func_packs = (invg_list, auxi_list, gamma_list, C_list, rhs_list)
+    
     
     #Runge Kutta step
-    ######################################################################################
+    #####################################################################################
+
+    #initialize functions
     exact_var_list = sks.get_exact_var_list(func_space_accurate)
     project_functions(exact_var_list, var_list)
     temp_var_list = [Function(func_space) for dummy in range(N)]
-    characteristic_field_values = bdry.get_characteristic_field_values(exact_var_list)
-
+    exact_characteristic_field_values = bdry.get_characteristic_field_values(exact_var_list)
     #functions used in diagnosting 
     Cr_forms = get_Cr_forms(var_list)
     Cr_list = [Function(func_space) for dummy in range(3)]
@@ -164,9 +157,7 @@ def main():
         with open(folder+'time_seq.txt', 'r') as f:
             time_seq = [float(t_point) for t_point in f.readlines()]
             t = time_seq[-1]
-            t_str = '%.05f'%t
-            t_str = t_str.zfill(8)
-            ioo.read_var_from_files(var_list, folder+t_str)
+            ioo.read_var_from_files(var_list, folder)
             ioo.read_seqs_from_file(folder+'error_var_seqs.txt', error_var_seqs)
             ioo.read_seqs_from_file(folder+'error_rhs_seqs.txt', error_rhs_seqs)
             ioo.read_seqs_from_file(folder+'error_C_seqs.txt', error_C_seqs)
@@ -174,14 +165,15 @@ def main():
     except FileNotFoundError:  
         t = 0.0
 
-    t_end = 100.0
+    t_end = 200.0
     last_save_wall_time = time.time()
-    plt.ion()
+    #plt.ion()
     fig_error = plt.figure(figsize=(19.2, 10.8))
     fig_C = plt.figure(figsize=(19.2, 10.8))
     fig_error_seq = plt.figure(figsize=(19.2, 10.8))
     fig_C_seq = plt.figure(figsize=(19.2, 10.8))
     fig_rhs_seq = plt.figure(figsize=(19.2, 10.8))
+
     while t < t_end:
         if t + dt < t_end:
             t += dt
@@ -191,7 +183,7 @@ def main():
             t = t_end
         time_seq.append(t)
         t_str = '%.05f'%t
-        t_str = t_str.zfill(8)
+        t_str = t_str.zfill(9)
 
         project_functions(var_list, temp_var_list)
         if DG_degree == 1:
@@ -217,8 +209,8 @@ def main():
             error_Cr_seqs[idx].append(error_Cr)
 
         
-        #save data and figs every 100 secends
-        if time.time() - last_save_wall_time > 100.0 or t == t_end:
+        #save data and figs every 30 secends
+        if time.time() - last_save_wall_time > 30.0 or t == t_end:
             # show fig of real time error of vars and constraints, save both in .png form
             # constraint fig
             fig_C.clf()
@@ -253,13 +245,12 @@ def main():
 
             #error fig 
             fig_error.clf()
-            fig_error.subplots(5, 3)
+            fig_error.subplots(3, 3)
             fig_error.suptitle('error when t = '+str(t))
             
-            project_functions(dif_forms, dif_list)
-            for idx in range(N):
+            for idx in range(9):
                 plot_obj = fig_error.axes[idx]
-                ioo.plot_function(dif_list[idx], plot_obj)
+                ioo.plot_function_dif(var_list[idx], exact_var_list[idx], plot_obj)
                 plot_obj.set_title('error of '+str(var_list[idx].name()))
 
             fig_error.savefig(folder+'error_'+t_str+'.png') 
@@ -267,7 +258,7 @@ def main():
             #save data to files    
             for idx in range(len(var_list)): 
                 var = var_list[idx]
-                ufile = HDF5File(MPI.comm_world, folder+t_str+var.name()+".hdf5", 'w')
+                ufile = HDF5File(MPI.comm_world, folder+var.name()+".hdf5", 'w')
                 ufile.write(var, var.name(), t) 
                 ufile.close()
               
@@ -284,12 +275,13 @@ def main():
             #save fig for error_var_seqs
             fig_error_seq.clf()
             fig_error_seq.suptitle('error over time')
-            fig_error_seq.subplots(5, 3)
+            fig_error_seq.subplots(3, 3)
 
-            for idx in range(N):
+            for idx in range(9):
                 plot_obj = fig_error_seq.axes[idx]
                 plot_obj.plot(time_seq, error_var_seqs[idx], 'r') 
                 plot_obj.set_title('error of '+str(var_list[idx].name())+' over time')
+                plot_obj.set_xscale('log')
                 plot_obj.set_yscale('log')
             
             fig_error_seq.savefig(folder+'error_over_time.png') 
@@ -297,11 +289,12 @@ def main():
             #rhs
             fig_rhs_seq.clf()
             fig_rhs_seq.suptitle('rhs over time')
-            fig_rhs_seq.subplots(5, 3)
+            fig_rhs_seq.subplots(3, 3)
 
-            for idx in range(N):
+            for idx in range(9):
                 plot_obj = fig_rhs_seq.axes[idx]
                 plot_obj.plot(time_seq, error_rhs_seqs[idx], 'r') 
+                plot_obj.set_xscale('log')
                 plot_obj.set_yscale('log')
                 plot_obj.set_title('L2 norm of rhs_'+str(var_list[idx].name())+' over time')
 
@@ -314,37 +307,40 @@ def main():
             fig_C_seq.add_subplot(2, 3, 1)
             plot_obj = fig_C_seq.axes[0]
             plot_obj.plot(time_seq, error_Cr_seqs[0], 'r') 
+            plot_obj.set_xscale('log')
             plot_obj.set_yscale('log')
             plot_obj.set_title('L2 norm of Cr00 over time')
 
             fig_C_seq.add_subplot(2, 3, 2)
             plot_obj = fig_C_seq.axes[1]
             plot_obj.plot(time_seq, error_Cr_seqs[1], 'r') 
+            plot_obj.set_xscale('log')
             plot_obj.set_yscale('log')
             plot_obj.set_title('L2 norm of Cr01 over time')
     
             fig_C_seq.add_subplot(2, 3, 3)
             plot_obj = fig_C_seq.axes[2]
             plot_obj.plot(time_seq, error_Cr_seqs[2], 'r') 
+            plot_obj.set_xscale('log')
             plot_obj.set_yscale('log')
             plot_obj.set_title('L2 norm of Cr11 over time')
  
             fig_C_seq.add_subplot(2, 2, 3)
             plot_obj = fig_C_seq.axes[3]
             plot_obj.plot(time_seq, error_C_seqs[0], 'r') 
+            plot_obj.set_xscale('log')
             plot_obj.set_yscale('log')
             plot_obj.set_title('L2 norm of C0 over time')
 
             fig_C_seq.add_subplot(2, 2, 4)
             plot_obj = fig_C_seq.axes[4]
             plot_obj.plot(time_seq, error_C_seqs[1], 'r') 
+            plot_obj.set_xscale('log')
             plot_obj.set_yscale('log')
             plot_obj.set_title('L2 norm of C1 over time')
  
             fig_C_seq.savefig(folder+'constraint_over_time.png') 
-
-
-    plt.ioff()
+ 
+    #plt.ioff()
     print("\nMEOW!!")
-
 main()
