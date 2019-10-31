@@ -1,0 +1,326 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9767,        318]
+NotebookOptionsPosition[      8676,        275]
+NotebookOutlinePosition[      9015,        290]
+CellTagsIndexPosition[      8972,        287]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"S", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "shift"}], ",", 
+      RowBox[{"lapse", "*", "gamma11"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lapse", ",", 
+      RowBox[{"-", "shift"}]}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.773466298017029*^9, 3.77346630801225*^9}, {
+  3.773466344158598*^9, 3.773466474728731*^9}, {3.777784678402411*^9, 
+  3.7777846922801533`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "shift"}], ",", 
+     RowBox[{"gamma11", " ", "lapse"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"lapse", ",", 
+     RowBox[{"-", "shift"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.773494395348702*^9, 3.777784695631929*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eigenvectors", "[", "S", "]"}]], "Input",
+ CellChangeTimes->{{3.773466478287692*^9, 3.773466486792315*^9}, {
+  3.773466906625889*^9, 3.7734669155031557`*^9}, {3.773467651034904*^9, 
+  3.773467656037664*^9}, {3.7734731120632153`*^9, 3.7734731151539927`*^9}, {
+  3.7734736289663553`*^9, 3.773473641646803*^9}, {3.773474093120891*^9, 
+  3.773474099956352*^9}, {3.773494253656753*^9, 3.773494254985766*^9}, {
+  3.7734942861249647`*^9, 3.773494287673216*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", 
+      SqrtBox["gamma11"]}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     SqrtBox["gamma11"], ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.773494395454329*^9, 3.7777846958442307`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"P", "=", 
+   RowBox[{"Transpose", "[", 
+    RowBox[{"Eigenvectors", "[", "S", "]"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7734942937663*^9, 3.773494295055172*^9}, 
+   3.773494387434141*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", 
+      SqrtBox["gamma11"]}], ",", 
+     SqrtBox["gamma11"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.773494395484787*^9, 3.777784695921534*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Eigenvalues", "[", "S", "]"}]], "Input",
+ CellChangeTimes->{{3.773466760025323*^9, 3.773466761445169*^9}, {
+  3.773466842591259*^9, 3.773466842957925*^9}, {3.7734668778711367`*^9, 
+  3.773466884661194*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", 
+      SqrtBox["gamma11"]}], " ", "lapse"}], "-", "shift"}], ",", 
+   RowBox[{
+    RowBox[{
+     SqrtBox["gamma11"], " ", "lapse"}], "-", "shift"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.773494395519189*^9, 3.7777846959993343`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"V", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "gamma2"}], ",", "1", ",", 
+      SqrtBox["gamma11"]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "gamma2"}], ",", "1", ",", 
+      RowBox[{"-", 
+       SqrtBox["gamma11"]}]}], "}"}]}], "}"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "gamma2"}], ",", "1", ",", 
+     SqrtBox["gamma11"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "gamma2"}], ",", "1", ",", 
+     RowBox[{"-", 
+      SqrtBox["gamma11"]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.773494395526723*^9, 3.777784696076849*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{"V", ".", "S", ".", 
+   RowBox[{"Inverse", "[", "V", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7734674108754177`*^9, 3.773467432179758*^9}, {
+  3.77347318014802*^9, 3.773473184196294*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Dot","dotsh",
+   "\"Tensors \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\
+\\\"1\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\
+\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"gamma2\\\"}], \
+\\\",\\\", \\\"1\\\", \\\",\\\", SqrtBox[\\\"gamma11\\\"]}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"-\\\", \\\"gamma2\\\"}], \\\
+\",\\\", \\\"1\\\", \\\",\\\", RowBox[{\\\"-\\\", \
+SqrtBox[\\\"gamma11\\\"]}]}], \\\"}\\\"}]}], \\\"}\\\"}]\\) and \
+\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"shift\\\"}], \\\",\\\", \
+RowBox[{\\\"gamma11\\\", \\\" \\\", \\\"lapse\\\"}]}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"lapse\\\", \\\",\\\", RowBox[{\\\"-\
+\\\", \\\"shift\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"",2,6,1,20500303199049709235,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.777784696300058*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Dot","dotsh",
+   "\"Tensors \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"shift\\\"}], \\\",\\\", \
+RowBox[{\\\"gamma11\\\", \\\" \\\", \\\"lapse\\\"}]}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"lapse\\\", \\\",\\\", RowBox[{\\\"-\
+\\\", \\\"shift\\\"}]}], \\\"}\\\"}]}], \\\"}\\\"}]\\) and \
+\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"1\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"gamma2\\\", \\\",\\\", FractionBox[\\\"1\\\", \
+\\\"2\\\"], \\\",\\\", FractionBox[\\\"1\\\", \\\"2\\\"]}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"0\\\", \\\",\\\", FractionBox[\\\"1\
+\\\", RowBox[{\\\"2\\\", \\\" \\\", SqrtBox[\\\"gamma11\\\"]}]], \\\",\\\", \
+RowBox[{\\\"-\\\", FractionBox[\\\"1\\\", RowBox[{\\\"2\\\", \\\" \\\", \
+SqrtBox[\\\"gamma11\\\"]}]]}]}], \\\"}\\\"}]}], \\\"}\\\"}]\\) have \
+incompatible shapes.\"",2,6,2,20500303199049709235,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.777784696476817*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "gamma2"}], ",", "1", ",", 
+      SqrtBox["gamma11"]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "gamma2"}], ",", "1", ",", 
+      RowBox[{"-", 
+       SqrtBox["gamma11"]}]}], "}"}]}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "shift"}], ",", 
+      RowBox[{"gamma11", " ", "lapse"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lapse", ",", 
+      RowBox[{"-", "shift"}]}], "}"}]}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"gamma2", ",", 
+      FractionBox["1", "2"], ",", 
+      FractionBox["1", "2"]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", 
+      FractionBox["1", 
+       RowBox[{"2", " ", 
+        SqrtBox["gamma11"]}]], ",", 
+      RowBox[{"-", 
+       FractionBox["1", 
+        RowBox[{"2", " ", 
+         SqrtBox["gamma11"]}]]}]}], "}"}]}], "}"}]}]], "Output",
+ CellChangeTimes->{3.7734943955626593`*^9, 3.777784696508709*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"Inverse", "[", "P", "]"}], ".", "S", ".", "P"}], "]"}]], "Input",
+ CellChangeTimes->{{3.773473123041737*^9, 3.773473162399489*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        SqrtBox["gamma11"]}], " ", "lapse"}], "-", "shift"}], ",", "0"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", 
+     RowBox[{
+      RowBox[{
+       SqrtBox["gamma11"], " ", "lapse"}], "-", "shift"}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.773494395602067*^9, 3.7777846966529417`*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.773474548478241*^9, 3.7734745497022457`*^9}}]
+},
+WindowSize->{1920, 1025},
+WindowMargins->{{0, Automatic}, {Automatic, 1}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 456, 13, 34, "Input"],
+Cell[1039, 37, 325, 10, 34, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1401, 52, 478, 7, 34, "Input"],
+Cell[1882, 61, 301, 10, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2220, 76, 253, 6, 56, "Input"],
+Cell[2476, 84, 299, 10, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2812, 99, 230, 4, 34, "Input"],
+Cell[3045, 105, 317, 10, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3399, 120, 410, 14, 47, "Input"],
+Cell[3812, 136, 440, 14, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4289, 155, 245, 5, 32, "Input"],
+Cell[4537, 162, 1015, 17, 38, "Message"],
+Cell[5555, 181, 1130, 18, 52, "Message"],
+Cell[6688, 201, 1203, 41, 50, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7928, 247, 195, 4, 32, "Input"],
+Cell[8126, 253, 437, 16, 44, "Output"]
+}, Open  ]],
+Cell[8578, 272, 94, 1, 32, "Input"]
+}
+]
+*)
+
