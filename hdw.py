@@ -181,7 +181,7 @@ def get_source_forms(var_list, invg_list, auxi_list, gamma_list, T_list, C_list,
             #term 5
             - paragamma1*paragamma2*shift*Phi01 \
             #term 6
-            - 4*lapse/r/r*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g11*(r*Phi_S+1)) \
+            - 4*lapse/pow(r,2)*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g11*(r*Phi_S+1)) \
             #term 7
             + 16*pi*lapse*(T01-0.5*T_scalar*g01))
 
@@ -206,7 +206,7 @@ def get_source_forms(var_list, invg_list, auxi_list, gamma_list, T_list, C_list,
             #term 5
             - paragamma1*paragamma2*shift*Phi11 \
             #term 6
-            - 4*lapse/r/r*(gamma11*g11*(r*Phi_S+1))*(gamma11*g11*(r*Phi_S+1)) \
+            - 4*lapse/pow(r,2)*(gamma11*g11*(r*Phi_S+1))*(gamma11*g11*(r*Phi_S+1)) \
             #term 7
             + 16*pi*lapse*(T11-0.5*T_scalar*g11))
 
@@ -227,7 +227,7 @@ def get_source_forms(var_list, invg_list, auxi_list, gamma_list, T_list, C_list,
             #row 1
             - 2*lapse/r/r*invg00*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*(gamma11*g01*(r*Phi_S+1) \
             - lapse*(r*Pi_S-normal1)) \
-            - 4*lapse/r/r*invg00*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*gamma11*g11*(r*Phi_S+1) \
+            - 4*lapse/r/r*invg01*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1))*gamma11*g11*(r*Phi_S+1) \
             - 2*lapse/r/r*invg11*(gamma11*g11*(r*Phi_S+1))*(gamma11*g11*(r*Phi_S+1)) \
             #row 2
             - lapse/r*invg00*H0*(gamma11*g01*(r*Phi_S+1)-lapse*(r*Pi_S-normal1)) \
